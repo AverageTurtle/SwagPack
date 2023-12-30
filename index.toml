@@ -3,3 +3,13 @@ hash-format = "sha256"
 [[files]]
 file = "PACKWIZ-LICENSE.txt"
 hash = "feb87a2e0c305de3464cc44077da5393c52d8ca6362d37427157d04ec6f4510d"
+
+[[files]]
+file = "mods/qsl.pw.toml"
+hash = "db2669fd5202942c0d0514c797c198506470e149542ac9d65e33e04f1a01db23"
+metafile = true
+
+[[files]]
+file = "mods/sodium.pw.toml"
+hash = "9a927c3e0830ba32e1b8a2e543597781724462595b8cce58f676962b442bb52b"
+metafile = true

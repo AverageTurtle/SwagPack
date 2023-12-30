@@ -10,3 +10,4 @@
 
 PACKWIZ-LICENSE.txt
 *.exe
+utils
