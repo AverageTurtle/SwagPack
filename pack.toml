@@ -1,0 +1,13 @@
+name = "Swag Pack"
+author = "24minecraftsam"
+version = "0.1.0"
+pack-format = "packwiz:1.1.0"
+
+[index]
+file = "index.toml"
+hash-format = "sha256"
+hash = "e88b0cb47468321b4dc0d9c6c4ed3bf3ba5d29e71a9d387611f77081072211c5"
+
+[versions]
+minecraft = "1.20.1"
+quilt = "0.23.0-beta.1"
