@@ -93,11 +93,6 @@ hash = "33f865a014f3acf2c1f2c452bfe7ba1a864acad178322a6eab3759c7e63c9654"
 metafile = true
 
 [[files]]
-file = "mods/estrogen.pw.toml"
-hash = "0e8813a1aa7130ed082ff8753ed2c64200fa4246fde4ed1522bc76828dfadd91"
-metafile = true
-
-[[files]]
 file = "mods/eureka.pw.toml"
 hash = "a744083ba17388f02c63d02854ba0ea0e74b681cc407fc651854dbf365ebda51"
 metafile = true
