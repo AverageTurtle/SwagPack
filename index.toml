@@ -1,14 +1,6 @@
 hash-format = "sha256"
 
 [[files]]
-file = "LICENSE"
-hash = "7bab2bb6319a8bd0dd8e6902986a4f253a979a4aa60843e61a31e3580340c369"
-
-[[files]]
-file = "PACKWIZ-LICENSE.txt"
-hash = "feb87a2e0c305de3464cc44077da5393c52d8ca6362d37427157d04ec6f4510d"
-
-[[files]]
 file = "config/heracles/groups.txt"
 hash = "b626f83e4586f8fabbfe868dbb3d7442a724e394e68ebf766792bedf81818995"
 
@@ -19,22 +11,6 @@ hash = "2743c29f0f1bcf0c0c1292621a8aea2fab83cbe8cb7657eb2525dd0fd07e6052"
 [[files]]
 file = "config/heracles/tutorial.html"
 hash = "344ad13d53f4eec75a0d44a0cd99d44dde466072495a634e5a7d221bfcab8d87"
-
-[[files]]
-file = "config/roughlyenoughitems/config.json5"
-hash = "519958664fb0e618cee22c95fd987dd5d3945e91f6a5bc9d1bfe1fbaf244f262"
-
-[[files]]
-file = "config/roughlyenoughitems/hints.json"
-hash = "3b4b51d36f10fb69d424ec065cd74fa786ad775ad88e650a9256299419c655a2"
-
-[[files]]
-file = "config/roughlyenoughitems/pinyin.properties"
-hash = "5fcd7a82993fb0ca5ad8a937e09357009d8d7e4281064a4d2278b553d7666981"
-
-[[files]]
-file = "config/roughlyenoughitems/pinyin_double.properties"
-hash = "f88c05ef2bfb2f941fb76c71164225193aa2770291f722b975ce427faa945d3a"
 
 [[files]]
 file = "mods/advancement-screenshot.pw.toml"
@@ -345,19 +321,3 @@ metafile = true
 file = "mods/zoomify.pw.toml"
 hash = "ec7f94fcb88b139515557631074b5e90e64ea53761eb5753c2492007e24f59c4"
 metafile = true
-
-[[files]]
-file = "packwizignore.txt"
-hash = "df3e03a9e55dc68fd9fec8a083ecf0549c11465a2a819849d2cceae86e11e415"
-
-[[files]]
-file = "utils/modrinth-quick-add.cmd"
-hash = "5dbc88bb103c8213a1d73966975deb788f59c07a54b56d8595d329f8749ad568"
-
-[[files]]
-file = "utils/refresh-packwiz.cmd"
-hash = "07bf7f2aa479b9c04f29cdc5b50a84ff073dd04e91da8040b4e3c0b2b3db5795"
-
-[[files]]
-file = "utils/update.cmd"
-hash = "a24adb45c2075aa3f9af08cb22609727bc054bb40ebb1e8d746ee793a4c739e5"
