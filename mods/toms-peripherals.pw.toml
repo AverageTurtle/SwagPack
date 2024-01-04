@@ -1,0 +1,13 @@
+name = "Tom's Peripherals"
+filename = "toms_peripherals_fabric-1.20.1-1.1.2.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/ljgxd2P8/versions/obAUJrZ0/toms_peripherals_fabric-1.20.1-1.1.2.jar"
+hash-format = "sha1"
+hash = "0d8832a03bb858cae223543cef97e4ef81d90953"
+
+[update]
+[update.modrinth]
+mod-id = "ljgxd2P8"
+version = "obAUJrZ0"
