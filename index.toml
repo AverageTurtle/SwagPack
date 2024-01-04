@@ -5,12 +5,20 @@ file = "config/Terra/config.yml"
 hash = "f4125011016ee07155de985f83079db9c3cf4892cbbe8ffc576a9e8e9ab441be"
 
 [[files]]
-file = "config/Terra/packs/swag_pack/pack.yml"
-hash = "922db316fc3e14a6b7e555af98d2f17badfb886fb649f65e026e910d9c4a0bec"
+file = "config/Terra/packs/swag_pack/biomes/test_biome.yml"
+hash = "c658470e08c21a2dc906a457624f2ed2d433968335ceb1fa3aa4b51ec961d155"
 
 [[files]]
-file = "config/Terra/packs/swag_pack/test_biome.yml"
-hash = "33233b3c3a8379b303f42e9b28f4310f28c7834f2cc3fc2b9bebf6af6825426f"
+file = "config/Terra/packs/swag_pack/pack.yml"
+hash = "ce62ab7f3135471ef6ece868096065077e15815173cb12bfaa72d1aa841df2d4"
+
+[[files]]
+file = "config/Terra/packs/swag_pack/palletes/grass/dirty_grass.yml"
+hash = "f21418daa9bcd7c8bf6522e77407a2ab40b63104de54f7c13c4abf4929d5bc47"
+
+[[files]]
+file = "config/create-common.toml"
+hash = "36a4d9f5da68f6801b83ce0c4a1a8805fbeffb0dd997f2d405465d7774522296"
 
 [[files]]
 file = "config/heracles/groups.txt"
@@ -345,6 +353,11 @@ hash = "d65613a8ae574869c9bb2406a9b7976e42a8c48d43958e6a52bcccf7a5a8c9ed"
 metafile = true
 
 [[files]]
+file = "mods/qdaa.pw.toml"
+hash = "38d4ac763f753ae4f4150710dc7ece8868f77547ca7f8977ccb2cbc05ab4c423"
+metafile = true
+
+[[files]]
 file = "mods/qkl.pw.toml"
 hash = "47217cc1489533f668d622f2078351a61873be573311a9a94be7293328a849a7"
 metafile = true
@@ -422,6 +435,11 @@ metafile = true
 [[files]]
 file = "mods/supplementaries.pw.toml"
 hash = "7efcbaccb72892523f0f46a88c9337cb5f52daad1aaec99a747abb44527df379"
+metafile = true
+
+[[files]]
+file = "mods/terra.pw.toml"
+hash = "cff35e3e7a0101a7460d91fff8c8611ad68c92283b468e7d75d166e01e6ff588"
 metafile = true
 
 [[files]]

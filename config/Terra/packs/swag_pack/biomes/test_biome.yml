@@ -1,0 +1,15 @@
+id: TEST_BIOME
+type: BIOME
+vanilla: minecraft:plains
+
+terrain:
+  sampler:
+    type: LINEAR_HEIGHTMAP
+    base: 64
+  sampler-2d:
+    type: WHITE_NOISE
+    salt: 102
+
+palette:
+  - DIRTY_GRASS: 319
+  
