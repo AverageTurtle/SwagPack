@@ -1,0 +1,13 @@
+name = "Nyf's Quivers"
+filename = "nyfsquiver-1.20.1-fabric-1.0.4.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/hReJ61of/versions/CwXBLRBv/nyfsquiver-1.20.1-fabric-1.0.4.jar"
+hash-format = "sha1"
+hash = "571570181ee7461db20209c67042952ba82ab237"
+
+[update]
+[update.modrinth]
+mod-id = "hReJ61of"
+version = "CwXBLRBv"

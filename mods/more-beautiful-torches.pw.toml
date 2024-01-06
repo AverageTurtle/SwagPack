@@ -1,0 +1,13 @@
+name = "More Beautiful Torches"
+filename = "morebeautifultorches-2.5.2-1.20.1_fabric.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/C341qvJ5/versions/fJMywAor/morebeautifultorches-2.5.2-1.20.1_fabric.jar"
+hash-format = "sha1"
+hash = "63012dd059d783a21342da7488bb3100e10fc344"
+
+[update]
+[update.modrinth]
+mod-id = "C341qvJ5"
+version = "fJMywAor"

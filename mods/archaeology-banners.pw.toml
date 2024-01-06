@@ -1,0 +1,13 @@
+name = "Archaeology Banners"
+filename = "ArchaeologyBanners-Fabric-1.20.1-5.1.4.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/HZGv2FlJ/versions/8406hNUn/ArchaeologyBanners-Fabric-1.20.1-5.1.4.jar"
+hash-format = "sha1"
+hash = "2edaccbd1bd3852a192bd283a34bba8e5aad7be6"
+
+[update]
+[update.modrinth]
+mod-id = "HZGv2FlJ"
+version = "8406hNUn"

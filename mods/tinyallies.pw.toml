@@ -1,0 +1,13 @@
+name = "Tiny Allies"
+filename = "tinyallies-1.20.1-1.0.2-fabric.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/3IhyJIDI/versions/EmoR045X/tinyallies-1.20.1-1.0.2-fabric.jar"
+hash-format = "sha1"
+hash = "2210255897f1b3c7ab612c48fb4e7d3a3f69c9e5"
+
+[update]
+[update.modrinth]
+mod-id = "3IhyJIDI"
+version = "EmoR045X"

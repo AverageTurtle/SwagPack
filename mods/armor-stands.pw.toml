@@ -1,0 +1,13 @@
+name = "Armor Stands"
+filename = "armorstands-1.2.1+1.20.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/FlC9CXUY/versions/4rejVINk/armorstands-1.2.1%2B1.20.jar"
+hash-format = "sha1"
+hash = "81b867abed8fe8be0fb6372ab9f84c287c34df1f"
+
+[update]
+[update.modrinth]
+mod-id = "FlC9CXUY"
+version = "4rejVINk"

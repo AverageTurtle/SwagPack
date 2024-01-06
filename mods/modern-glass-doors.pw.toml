@@ -1,0 +1,13 @@
+name = "Modern Glass Doors"
+filename = "modern-glass-doors-5.1.2+1.20-and-later.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/zGSQY8dZ/versions/sJ19i1XS/modern-glass-doors-5.1.2%2B1.20-and-later.jar"
+hash-format = "sha1"
+hash = "4a291f6eed90c0df6f4893fdac9bc9395c973aec"
+
+[update]
+[update.modrinth]
+mod-id = "zGSQY8dZ"
+version = "sJ19i1XS"

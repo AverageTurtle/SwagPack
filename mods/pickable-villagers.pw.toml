@@ -1,0 +1,13 @@
+name = "Pickable Villagers"
+filename = "pickable_villagers-1.4.5+1.20.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/lMRqnKVq/versions/ju995cSJ/pickable_villagers-1.4.5%2B1.20.1.jar"
+hash-format = "sha1"
+hash = "6d0ee852de727fbf3bd12ca75143b4e1e304788d"
+
+[update]
+[update.modrinth]
+mod-id = "lMRqnKVq"
+version = "ju995cSJ"

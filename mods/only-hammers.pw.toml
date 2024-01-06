@@ -1,0 +1,13 @@
+name = "Only Hammers"
+filename = "OnlyHammers-1.20.1-0.6-Fabric.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/p5wmRC3H/versions/m5DFfKEo/OnlyHammers-1.20.1-0.6-Fabric.jar"
+hash-format = "sha1"
+hash = "f3d6a4f7e94b6d2a4cc2dd8867da769688160d43"
+
+[update]
+[update.modrinth]
+mod-id = "p5wmRC3H"
+version = "m5DFfKEo"

@@ -1,0 +1,13 @@
+name = "Time & Wind"
+filename = "time-and-wind-ct-1.4.8+1.20-1.20.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/e7pPr7RQ/versions/FaFtc7bt/time-and-wind-ct-1.4.8%2B1.20-1.20.1.jar"
+hash-format = "sha1"
+hash = "1022457b115552a2326a86570899e4c3a10ca57b"
+
+[update]
+[update.modrinth]
+mod-id = "e7pPr7RQ"
+version = "FaFtc7bt"

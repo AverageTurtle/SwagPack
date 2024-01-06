@@ -1,0 +1,13 @@
+name = "Pockets"
+filename = "Pockets-1.20-1.2.0.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/hAjvvnUD/versions/YfVaXZSv/Pockets-1.20-1.2.0.jar"
+hash-format = "sha1"
+hash = "dda15579767c58b43fc48104a522d92e736ad13a"
+
+[update]
+[update.modrinth]
+mod-id = "hAjvvnUD"
+version = "YfVaXZSv"

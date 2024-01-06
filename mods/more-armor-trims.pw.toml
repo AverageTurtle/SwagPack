@@ -1,0 +1,13 @@
+name = "More Armor Trims"
+filename = "more_armor_trims-fabric-1.20.1-1.1.3.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/FGNYBAJ6/versions/fa5BKC9j/more_armor_trims-fabric-1.20.1-1.1.3.jar"
+hash-format = "sha1"
+hash = "d1ee73568761e94ed3dec77aa1f4891a5400a445"
+
+[update]
+[update.modrinth]
+mod-id = "FGNYBAJ6"
+version = "fa5BKC9j"

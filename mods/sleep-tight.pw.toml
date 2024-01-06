@@ -1,0 +1,13 @@
+name = "Sleep Tight"
+filename = "sleep_tight-1.20-1.1.12-fabric.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/tNai0h2Y/versions/O3HANbRh/sleep_tight-1.20-1.1.12-fabric.jar"
+hash-format = "sha1"
+hash = "4dd060da05b573b8ebd30bc52fb62cc21dc780bb"
+
+[update]
+[update.modrinth]
+mod-id = "tNai0h2Y"
+version = "O3HANbRh"

@@ -1,0 +1,13 @@
+name = "Pocket Tools"
+filename = "pockettools-1.2.2+1.20.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/ekQi2q0x/versions/XiuFxK2Q/pockettools-1.2.2%2B1.20.1.jar"
+hash-format = "sha1"
+hash = "3f75879f9c9f50ee8990a66e6080eb83d04f0662"
+
+[update]
+[update.modrinth]
+mod-id = "ekQi2q0x"
+version = "XiuFxK2Q"

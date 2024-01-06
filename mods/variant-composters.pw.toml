@@ -1,0 +1,13 @@
+name = "Variant Composters"
+filename = "variantcomposters-2.4.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/quxmRK48/versions/Frh4R6oT/variantcomposters-2.4.jar"
+hash-format = "sha1"
+hash = "94f33b2532f3459bc9bea49795f927fd48e302c1"
+
+[update]
+[update.modrinth]
+mod-id = "quxmRK48"
+version = "Frh4R6oT"

@@ -1,0 +1,13 @@
+name = "Red Bits (redstone)"
+filename = "redbits-1.16.2.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/u6AMJBvu/versions/jpzYNaO0/redbits-1.16.2.jar"
+hash-format = "sha1"
+hash = "23e8d7acbe6e343b203ed900cd0cec499b760b12"
+
+[update]
+[update.modrinth]
+mod-id = "u6AMJBvu"
+version = "jpzYNaO0"

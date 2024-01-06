@@ -1,0 +1,13 @@
+name = "Mo' Zombies Wave"
+filename = "Mo'ZombiesWave-1.20.1-0.1.0-fabric.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/iAqn9vit/versions/M9XgJspi/Mo%27ZombiesWave-1.20.1-0.1.0-fabric.jar"
+hash-format = "sha1"
+hash = "1a286c98424a1e7fb02af1da3cca480e13c71cf4"
+
+[update]
+[update.modrinth]
+mod-id = "iAqn9vit"
+version = "M9XgJspi"
