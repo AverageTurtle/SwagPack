@@ -14,7 +14,7 @@
     }
   },
   "rewards": {
-    "100": {
+    "100 XP Points": {
       "icon": {
         "item": {
           "id": "minecraft:air",
@@ -37,7 +37,7 @@
       "/f/--Just head to the \"Tasks\" section and click the checkbox for a free reward!--/f/"
     ],
     "groups": {
-      "Main": {
+      "Milestones": {
         "position": [
           0,
           0
