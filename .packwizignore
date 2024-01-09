@@ -6,7 +6,6 @@
 .gitattributes
 .gitignore
 /kubejs/exported/**
-/config/roughlyenoughitems/**
 NoiseTool-1.0.0-all.jar
 
 PACKWIZ-LICENSE.txt

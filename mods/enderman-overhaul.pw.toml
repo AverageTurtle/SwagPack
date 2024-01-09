@@ -1,13 +1,13 @@
 name = "Enderman Overhaul"
-filename = "endermanoverhaul-fabric-1.20.1-1.0.3.jar"
+filename = "endermanoverhaul-fabric-1.20.1-1.0.4.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/Lq6ojcWv/versions/bfk8ik9k/endermanoverhaul-fabric-1.20.1-1.0.3.jar"
+url = "https://cdn.modrinth.com/data/Lq6ojcWv/versions/4oiJql9P/endermanoverhaul-fabric-1.20.1-1.0.4.jar"
 hash-format = "sha1"
-hash = "0563cb3227755b5baee721ca828db7a97d842512"
+hash = "77bb161d696a4bb3c890ce942500ca96db61f12d"
 
 [update]
 [update.modrinth]
 mod-id = "Lq6ojcWv"
-version = "bfk8ik9k"
+version = "4oiJql9P"

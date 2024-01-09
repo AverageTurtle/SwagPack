@@ -1,12 +1,12 @@
 name = "Swag Pack"
 author = "24minecraftsam"
-version = "0.1.1"
+version = "0.2.0"
 pack-format = "packwiz:1.1.0"
 
 [index]
 file = "index.toml"
 hash-format = "sha256"
-hash = "876adc87b3697aa62e491d59b9797e373c08b1d44c84df1afe03c797f048b664"
+hash = "efad991b9cbcb909d942bc4510cc182c4b99cc960d30b04afb3013449d50f4e0"
 
 [versions]
 minecraft = "1.20.1"
