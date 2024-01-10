@@ -42,7 +42,7 @@ hash = "1992a3702aa0ac582b4d7be833720df72e1123f4a61b7b6fb393ce3dd9dc8189"
 
 [[files]]
 file = "config/heracles/quests/milestones/survive_the_night.json"
-hash = "4c486eb13e2ef2e314ba1c1cb8acf35a24956aafd7937774c2f15c0465a80e8a"
+hash = "0ace1de12be8c1357bedb57783657439108b92802b038a75f373dde72bc8a6c0"
 
 [[files]]
 file = "config/heracles/quests/milestones/you_really_are_swag.json"
@@ -99,6 +99,10 @@ hash = "2340a7259f1eacebc06ffc95137cf17242ffd6219441bc8fcd7a30182afde46f"
 [[files]]
 file = "config/time-and-wind/time-data.json"
 hash = "7d722211c86b597f069d5f79ab4d56469981b51d36adfd9bce4b371f6ada0749"
+
+[[files]]
+file = "config/weeping-angels-spawns"
+hash = "7127f318930bf268774edc0505b173c9ade5af3b5437f21d7e132345bd5f2e94"
 
 [[files]]
 file = "kubejs/assets/swag_pack/lang/en_us.json"
@@ -1344,6 +1348,11 @@ hash = "6cef110f567b6957a35aa4224c70e7e4ad22dd25f852b2a39d2457fdb804edff"
 metafile = true
 
 [[files]]
+file = "mods/natures-spirit.pw.toml"
+hash = "16c56cc4dae0c089bdd3f708cfd5fcfecfda35adc37ab5070029a13e6e7e60e1"
+metafile = true
+
+[[files]]
 file = "mods/nears.pw.toml"
 hash = "93c27699d9d3d200520cb535545383612666baaed9943a5f736800c0802f4c7d"
 metafile = true
@@ -1661,11 +1670,6 @@ metafile = true
 [[files]]
 file = "mods/shulkerboxtooltip.pw.toml"
 hash = "edba7765364ba526fcc7da563e9858d997dd9915401e08040c32de7f79d1bb91"
-metafile = true
-
-[[files]]
-file = "mods/shut-up-gl-error.pw.toml"
-hash = "20b3e6e3ecbb6ea0f2fd31f166a3cef23c0124f376c25fdc6613b3f674347ff3"
 metafile = true
 
 [[files]]
