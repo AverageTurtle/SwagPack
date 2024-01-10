@@ -1,0 +1,6 @@
+autoJump:false
+enableVsync:false
+maxFps:260
+renderDistance:24
+simulationDistance:12
+key_gui.xaero_new_waypoint:key.keyboard.n

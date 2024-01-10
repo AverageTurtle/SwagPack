@@ -106,7 +106,7 @@ hash = "51fce4c4e7c2a9f645541c26e4f685dc4fd4cb430e9115cdaf6f64bdfce1510a"
 
 [[files]]
 file = "kubejs/server_scripts/misc.js"
-hash = "374a8449f6cb8909cf5d4923eade671bc9060b41735c23f9a170ce96d5ddea85"
+hash = "f7161a16d80249063db6be6e0ee1094e38ab41714b4c4fe43ea8c9c86a6c6ca6"
 
 [[files]]
 file = "mods/accelerated-decay.pw.toml"
@@ -811,6 +811,11 @@ metafile = true
 [[files]]
 file = "mods/fusion-connected-textures.pw.toml"
 hash = "39d253925debb6ddc146e68d251b86eb6ba8501aef42c1dfe4c2dfcb3ec35224"
+metafile = true
+
+[[files]]
+file = "mods/fwaystones.pw.toml"
+hash = "8afe478f0e3b3d0609ea7efac63d9312302ab8261fffc964b9ad5d7b3d9eafc6"
 metafile = true
 
 [[files]]
@@ -1941,11 +1946,6 @@ metafile = true
 [[files]]
 file = "mods/warrior-rage.pw.toml"
 hash = "8ae5375d7c4dd6cb9c18f5bc09b04bcca71d968d0c754baf918503d2eb8eb463"
-metafile = true
-
-[[files]]
-file = "mods/waystones.pw.toml"
-hash = "086f56d0a3c8f1a7b289b9949d7de08362f717295d89f0db0d13421ec860a453"
 metafile = true
 
 [[files]]
