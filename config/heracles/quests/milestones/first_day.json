@@ -1,0 +1,133 @@
+{
+  "dependencies": [
+    "you_really_are_swag"
+  ],
+  "tasks": {
+    "mining": {
+      "type": "heracles:item",
+      "item": "#minecraft:pickaxes",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "Time to mine",
+      "icon": {
+        "item": {
+          "id": "minecraft:wooden_pickaxe",
+          "count": 1,
+          "nbt": {
+            "Damage": 0
+          }
+        },
+        "type": "heracles:item"
+      }
+    },
+    "fighting": {
+      "type": "heracles:item",
+      "item": "#minecraft:swords",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "Preparing for night",
+      "icon": {
+        "item": {
+          "id": "minecraft:wooden_sword",
+          "count": 1,
+          "nbt": {
+            "Damage": 0
+          }
+        },
+        "type": "heracles:item"
+      }
+    },
+    "getting_wood": {
+      "type": "heracles:item",
+      "item": "#minecraft:logs",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "Getting Wood",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "food": {
+      "type": "heracles:item",
+      "item": "#c:food",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "A good meal",
+      "icon": {
+        "item": {
+          "id": "minecraft:bread",
+          "count": 40
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "xp": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "xptype": "POINTS",
+      "amount": 25,
+      "title": "and 25 EX points",
+      "type": "heracles:xp"
+    },
+    "take_a_cupcake": {
+      "title": "Take A Cupcake!",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "bakery:strawberry_cupcake",
+        "count": 1
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "Surviving the first day is a important first step. Because I don't fully trust you to be swag enough here is a few goals."
+    ],
+    "groups": {
+      "Milestones": {
+        "position": [
+          55,
+          0
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "spawn:sunflower",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "First Day?"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

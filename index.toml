@@ -37,7 +37,15 @@ file = "config/heracles/groups.txt"
 hash = "dd89dcc2603684e7ce2917c35170abf5cd4cc1ac631ea5941761db954cae0951"
 
 [[files]]
-file = "config/heracles/quests/milestones/You really are swag.json"
+file = "config/heracles/quests/milestones/first_day.json"
+hash = "1992a3702aa0ac582b4d7be833720df72e1123f4a61b7b6fb393ce3dd9dc8189"
+
+[[files]]
+file = "config/heracles/quests/milestones/survive_the_night.json"
+hash = "4c486eb13e2ef2e314ba1c1cb8acf35a24956aafd7937774c2f15c0465a80e8a"
+
+[[files]]
+file = "config/heracles/quests/milestones/you_really_are_swag.json"
 hash = "fd07339bdb2ecf7b7e57f6839f7203e0e19a14d18b36c8323f7d6ce965f82f87"
 
 [[files]]
@@ -93,6 +101,14 @@ file = "config/time-and-wind/time-data.json"
 hash = "7d722211c86b597f069d5f79ab4d56469981b51d36adfd9bce4b371f6ada0749"
 
 [[files]]
+file = "kubejs/assets/swag_pack/lang/en_us.json"
+hash = "18799ddfa50d83ea6ef2ee674a458c290aba76081bf0e2da3a07da2ab20dce58"
+
+[[files]]
+file = "kubejs/assets/swag_pack/loading_tips/tips.json"
+hash = "aca11f569d9fd4cd8d1aaabb236023add82d7a273601695020cbf517b263a9bf"
+
+[[files]]
 file = "kubejs/client_scripts/rei.js"
 hash = "da37efca0b75274c14c357236ab14c88d8cb5bca942997846fb11986a7368589"
 
@@ -103,6 +119,10 @@ hash = "c695c4c53909e608e15d6f41815c4f9570978e10a52a5cea21296437bb636ed2"
 [[files]]
 file = "kubejs/config/common.properties"
 hash = "51fce4c4e7c2a9f645541c26e4f685dc4fd4cb430e9115cdaf6f64bdfce1510a"
+
+[[files]]
+file = "kubejs/config/defaultoptions.txt"
+hash = "662a7fc226fe89026bed0b7c4bd4ff6fe8ac78bdff95f56adaabc1860853535a"
 
 [[files]]
 file = "kubejs/server_scripts/misc.js"
@@ -801,11 +821,6 @@ metafile = true
 [[files]]
 file = "mods/froglegs.pw.toml"
 hash = "ecc5355d8a6cfbe7af13ed8fe684b511169d98127627c35fddecb7e8a01ab463"
-metafile = true
-
-[[files]]
-file = "mods/furnish-furniture.pw.toml"
-hash = "f420195cd1b9d8e6ccc8291a4ac71a2204668f442daca3f56bfe2b4701c57a83"
 metafile = true
 
 [[files]]
@@ -1621,11 +1636,6 @@ metafile = true
 [[files]]
 file = "mods/roughly-enough-professions-rep.pw.toml"
 hash = "099f4613975cba72fd83510efccfa85c4c15e446aebf082584c24e87f2ab918e"
-metafile = true
-
-[[files]]
-file = "mods/ruined-equipment.pw.toml"
-hash = "385f810437d6f3b81f72568107ee3bedb78660c30d4375a3b71499917ab311b4"
 metafile = true
 
 [[files]]

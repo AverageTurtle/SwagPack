@@ -1,0 +1,99 @@
+{
+  "dependencies": [
+    "first_day"
+  ],
+  "tasks": {
+    "bleeding": {
+      "title": "OUCH",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "advancements": [
+        "majruszsdifficulty:bleeding"
+      ],
+      "type": "heracles:advancement"
+    },
+    "bandage": {
+      "type": "heracles:item",
+      "item": "majruszsdifficulty:bandage",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "Healing",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "25": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "xptype": "POINTS",
+      "amount": 25,
+      "title": "25 XP points",
+      "type": "heracles:xp"
+    },
+    "bandage": {
+      "title": "Your to hot to die.",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "majruszsdifficulty:bandage",
+        "count": 4
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "The night can be dangerious sometimes! Make sure to take bandages incase you are bleeding. Wouldn't want to bleed to death. Now that would be a little embarrassing."
+    ],
+    "groups": {
+      "Milestones": {
+        "position": [
+          55,
+          -50
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "majruszsdifficulty:advancement_bleeding",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "The night can be dangerous!"
+    }
+  },
+  "settings": {
+    "unlockNotification": true,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "IN_PROGRESS"
+  }
+}
