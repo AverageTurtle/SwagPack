@@ -94,4 +94,17 @@ ServerEvents.recipes(event => {
     event.remove({ output: "mythicmetals:raw_tin_block" })
     event.remove({ output: "mythicmetals:tin_block" })
 
+    // Fix star platinum knife
+    event.remove({ output: "farmersknives:star_platinum_knife" })
+    event.shaped(
+        Item.of("farmersknives:star_platinum_knife", 1),
+        [
+            " R",
+            "S "
+        ],
+        {
+            R: "mythicmetals:star_platinum",
+            S: "minecraft:stick"
+        }
+    )
 })
