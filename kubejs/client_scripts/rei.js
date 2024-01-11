@@ -18,6 +18,13 @@ const HIDDEN_ITEMS = [
     "mythicmetals:tin_ore",
     "mythicmetals:raw_tin_block",
     "mythicmetals:tin_block",
+    // energized power
+    "energizedpower:wooden_hammer",
+    "energizedpower:stone_hammer",
+    "energizedpower:iron_hammer",
+    "energizedpower:gold_hammer",
+    "energizedpower:diamond_hammer",
+    "energizedpower:netherite_hammer",
 ];
 
 REIEvents.hide('item', (event) => {

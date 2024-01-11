@@ -14,9 +14,10 @@ ServerEvents.recipes(event => {
         "minecraft:diamond"
     )
 
-    // Remove Indrev Hammer
-    event.remove({ output: "indrev:hammer" })
-    event.remove({ input: "indrev:hammer" })
+    u
+    // Remove Energizedpower Hammer
+    event.remove({ mod: "energizedpower", output: "#c:hammers" })
+    event.remove({ mod: "energizedpower", input: "#c:hammers" })
 
     // Remove Indrev tin
     event.remove({ output: "indrev:raw_tin_block" })
