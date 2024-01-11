@@ -14,10 +14,26 @@ ServerEvents.recipes(event => {
         "minecraft:diamond"
     )
 
-    u
     // Remove Energizedpower Hammer
     event.remove({ mod: "energizedpower", output: "#c:hammers" })
     event.remove({ mod: "energizedpower", input: "#c:hammers" })
+
+    // Remove Ad Astra
+    event.remove({ output: "ad_astra:hammer" })
+    event.remove({ input: "ad_astra:hammer" })
+
+    // Remove Energized Power Silicon
+    event.remove({ output: "energizedpower:silicon" })
+
+    // Energized Power basic machine frame
+    event.replaceInput(
+        { output: "energizedpower:basic_machine_frame" },
+        "minecraft:copper", "#c:copper_plate"
+    )
+    event.replaceInput(
+        { output: "energizedpower:basic_machine_frame" },
+        "minecraft:iron", "#c:iron_plate"
+    )
 
     // Remove Indrev tin
     event.remove({ output: "indrev:raw_tin_block" })
@@ -79,18 +95,7 @@ ServerEvents.recipes(event => {
     })
     
     // plate
-    event.remove({ output: "indrev:tin_plate" })
-    event.custom({
-        type: "indrev:compress",
-        ingredients: [
-            { tag: "c:tin_ingots" }
-        ],
-        output: [
-            { item: "modern_industrialization:tin_plate", count: 1 }
-        ],
-        processTime: 400
-    })
-
+    //NOTE: tin plate moved to plates.js
     event.remove({ output: "indrev:tin_nugget" })
 
     // Remove Mythic Metal Tin

@@ -1003,6 +1003,11 @@ hash = "1d8b10baa654959dbe4c1ca48e673c2eb7a78c849f372dbfe71bcffb006a5d7e"
 metafile = true
 
 [[files]]
+file = "mods/jump-over-fences.pw.toml"
+hash = "248ba12b8f5b66459f8ec1284388a86fb47eed0c1a96a360de8ce649aa3f6390"
+metafile = true
+
+[[files]]
 file = "mods/just-outdoor-stuffs.pw.toml"
 hash = "74dbadb03540daf16be45c4e1deaca44331ae9ecd44976625278f1ce4470129a"
 metafile = true

@@ -18,13 +18,30 @@ const HIDDEN_ITEMS = [
     "mythicmetals:tin_ore",
     "mythicmetals:raw_tin_block",
     "mythicmetals:tin_block",
+    // ad astra
+    "ad_astra:hammer",
+    
     // energized power
     "energizedpower:wooden_hammer",
     "energizedpower:stone_hammer",
     "energizedpower:iron_hammer",
-    "energizedpower:gold_hammer",
+    "energizedpower:golden_hammer",
     "energizedpower:diamond_hammer",
     "energizedpower:netherite_hammer",
+    "energizedpower:silicon",
+    // hide unused copper plates
+    "create:copper_sheet",
+    "indrev:copper_plate",
+    "energizedpower:copper_plate",
+    // hide unused iron plates
+    "create:iron_sheet",
+    "indrev:iron_plate",
+    "energizedpower:iron_plate",
+    "ad_astra:iron_plate",
+    // hide unused gold plates
+    "create:golden_sheet",
+    "indrev:gold_plate",
+    "energizedpower:gold_plate"
 ];
 
 REIEvents.hide('item', (event) => {
