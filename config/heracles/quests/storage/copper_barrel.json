@@ -1,16 +1,61 @@
 {
   "dependencies": [],
-  "tasks": {},
-  "rewards": {},
+  "tasks": {
+    "copper_barrel": {
+      "block": "expandedstorage:copper_barrel",
+      "state": {},
+      "title": "Use a Copper Barrel",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "type": "heracles:block_interaction"
+    }
+  },
+  "rewards": {
+    "xp": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "xptype": "POINTS",
+      "amount": 25,
+      "title": "25 XP points",
+      "type": "heracles:xp"
+    },
+    "copper": {
+      "title": "Copper!",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "minecraft:copper_ingot",
+        "count": 16
+      },
+      "type": "heracles:item"
+    }
+  },
   "display": {
     "subtitle": {
       "text": ""
     },
-    "description": [],
+    "description": [
+      "Well. Not as swag. but I guess you can make one of these or whatever."
+    ],
     "groups": {
       "Storage": {
         "position": [
-          30,
+          25,
           0
         ]
       }

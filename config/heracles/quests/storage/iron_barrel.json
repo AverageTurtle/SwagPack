@@ -1,12 +1,12 @@
 {
   "dependencies": [
-    "obsidian_chest"
+    "copper_barrel"
   ],
   "tasks": {
-    "netherite_chest": {
-      "block": "expandedstorage:netherite_chest",
+    "iron_barrel": {
+      "block": "expandedstorage:iron_barrel",
       "state": {},
-      "title": "Netherite Chest",
+      "title": "Use an Iron Barrel",
       "icon": {
         "item": {
           "id": "minecraft:air",
@@ -27,22 +27,22 @@
         "type": "heracles:item"
       },
       "xptype": "POINTS",
-      "amount": 100,
-      "title": "100 XP points",
+      "amount": 25,
+      "title": "25 XP points",
       "type": "heracles:xp"
     },
-    "netherite": {
-      "title": "Duplication Glitch?",
+    "iron_barrel": {
+      "title": "Iron!",
       "icon": {
         "item": {
-          "id": "minecraft:netherite_ingot",
-          "count": 1
+          "id": "minecraft:air",
+          "count": 0
         },
         "type": "heracles:item"
       },
       "item": {
-        "id": "minecraft:netherite_ingot",
-        "count": 2
+        "id": "minecraft:iron_ingot",
+        "count": 8
       },
       "type": "heracles:item"
     }
@@ -52,26 +52,26 @@
       "text": ""
     },
     "description": [
-      "WOW Your so rich! I'm starting to think you are swag. Keep it up!"
+      "I guess you saved some iron? You happy with yourself?"
     ],
     "groups": {
       "Storage": {
         "position": [
-          -25,
-          160
+          25,
+          40
         ]
       }
     },
     "icon": {
       "item": {
-        "id": "expandedstorage:netherite_chest",
+        "id": "expandedstorage:iron_barrel",
         "count": 1
       },
       "type": "heracles:item"
     },
-    "icon_background": "heracles:textures/gui/quest_backgrounds/diamonds.png",
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Netherite Chest"
+      "translate": "Iron Barrel"
     }
   },
   "settings": {

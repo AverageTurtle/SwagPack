@@ -1,12 +1,12 @@
 {
   "dependencies": [
-    "obsidian_chest"
+    "diamond_barrel"
   ],
   "tasks": {
-    "netherite_chest": {
-      "block": "expandedstorage:netherite_chest",
+    "obsidian_barrel": {
+      "block": "expandedstorage:obsidian_barrel",
       "state": {},
-      "title": "Netherite Chest",
+      "title": "Use an Obsidian Barrel",
       "icon": {
         "item": {
           "id": "minecraft:air",
@@ -27,22 +27,22 @@
         "type": "heracles:item"
       },
       "xptype": "POINTS",
-      "amount": 100,
-      "title": "100 XP points",
+      "amount": 25,
+      "title": "25 XP points",
       "type": "heracles:xp"
     },
-    "netherite": {
-      "title": "Duplication Glitch?",
+    "obsidian": {
+      "title": "Obsidian",
       "icon": {
         "item": {
-          "id": "minecraft:netherite_ingot",
-          "count": 1
+          "id": "minecraft:air",
+          "count": 0
         },
         "type": "heracles:item"
       },
       "item": {
-        "id": "minecraft:netherite_ingot",
-        "count": 2
+        "id": "minecraft:obsidian",
+        "count": 16
       },
       "type": "heracles:item"
     }
@@ -52,26 +52,26 @@
       "text": ""
     },
     "description": [
-      "WOW Your so rich! I'm starting to think you are swag. Keep it up!"
+      "I guess it's not as much of a waste? You did already put in the diamond, gold, iron, and copper. Just don't upgrade it to netherite PLEASE."
     ],
     "groups": {
       "Storage": {
         "position": [
-          -25,
+          25,
           160
         ]
       }
     },
     "icon": {
       "item": {
-        "id": "expandedstorage:netherite_chest",
+        "id": "expandedstorage:obsidian_barrel",
         "count": 1
       },
       "type": "heracles:item"
     },
-    "icon_background": "heracles:textures/gui/quest_backgrounds/diamonds.png",
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Netherite Chest"
+      "translate": "Obsidian Barrel"
     }
   },
   "settings": {

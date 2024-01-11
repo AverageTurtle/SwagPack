@@ -1,12 +1,12 @@
 {
   "dependencies": [
-    "obsidian_chest"
+    "obsidian_barrel"
   ],
   "tasks": {
-    "netherite_chest": {
-      "block": "expandedstorage:netherite_chest",
+    "netherite_barrel": {
+      "block": "expandedstorage:netherite_barrel",
       "state": {},
-      "title": "Netherite Chest",
+      "title": "Use a Netherite Barrel",
       "icon": {
         "item": {
           "id": "minecraft:air",
@@ -27,16 +27,16 @@
         "type": "heracles:item"
       },
       "xptype": "POINTS",
-      "amount": 100,
-      "title": "100 XP points",
+      "amount": 25,
+      "title": "25 XP points",
       "type": "heracles:xp"
     },
     "netherite": {
-      "title": "Duplication Glitch?",
+      "title": "Netherite! You don't deserve this.",
       "icon": {
         "item": {
-          "id": "minecraft:netherite_ingot",
-          "count": 1
+          "id": "minecraft:air",
+          "count": 0
         },
         "type": "heracles:item"
       },
@@ -52,26 +52,26 @@
       "text": ""
     },
     "description": [
-      "WOW Your so rich! I'm starting to think you are swag. Keep it up!"
+      "WOW. Your so wastful. You betrayed the classic chest! for these new age barrels?? That -10 swag points. Please do better if you want to be swag."
     ],
     "groups": {
       "Storage": {
         "position": [
-          -25,
-          160
+          25,
+          200
         ]
       }
     },
     "icon": {
       "item": {
-        "id": "expandedstorage:netherite_chest",
+        "id": "expandedstorage:netherite_barrel",
         "count": 1
       },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/diamonds.png",
     "title": {
-      "translate": "Netherite Chest"
+      "translate": "Netherite Barrel"
     }
   },
   "settings": {

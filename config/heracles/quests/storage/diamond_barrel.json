@@ -1,12 +1,12 @@
 {
   "dependencies": [
-    "obsidian_chest"
+    "gold_barrel"
   ],
   "tasks": {
-    "netherite_chest": {
-      "block": "expandedstorage:netherite_chest",
+    "diamond_barrel": {
+      "block": "expandedstorage:diamond_barrel",
       "state": {},
-      "title": "Netherite Chest",
+      "title": "Use a Diamond Barrel",
       "icon": {
         "item": {
           "id": "minecraft:air",
@@ -27,22 +27,22 @@
         "type": "heracles:item"
       },
       "xptype": "POINTS",
-      "amount": 100,
-      "title": "100 XP points",
+      "amount": 25,
+      "title": "25 XP points",
       "type": "heracles:xp"
     },
-    "netherite": {
-      "title": "Duplication Glitch?",
+    "diamond": {
+      "title": "Diamonds!",
       "icon": {
         "item": {
-          "id": "minecraft:netherite_ingot",
-          "count": 1
+          "id": "minecraft:air",
+          "count": 0
         },
         "type": "heracles:item"
       },
       "item": {
-        "id": "minecraft:netherite_ingot",
-        "count": 2
+        "id": "minecraft:diamond",
+        "count": 8
       },
       "type": "heracles:item"
     }
@@ -52,26 +52,26 @@
       "text": ""
     },
     "description": [
-      "WOW Your so rich! I'm starting to think you are swag. Keep it up!"
+      "What a waste. It is not swag to waste diamonds."
     ],
     "groups": {
       "Storage": {
         "position": [
-          -25,
-          160
+          25,
+          120
         ]
       }
     },
     "icon": {
       "item": {
-        "id": "expandedstorage:netherite_chest",
+        "id": "expandedstorage:diamond_barrel",
         "count": 1
       },
       "type": "heracles:item"
     },
-    "icon_background": "heracles:textures/gui/quest_backgrounds/diamonds.png",
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Netherite Chest"
+      "translate": "Diamond Barrel"
     }
   },
   "settings": {

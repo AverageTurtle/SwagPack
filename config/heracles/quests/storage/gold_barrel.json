@@ -1,12 +1,9 @@
 {
   "dependencies": [
-    "obsidian_chest"
+    "iron_barrel"
   ],
   "tasks": {
-    "netherite_chest": {
-      "block": "expandedstorage:netherite_chest",
-      "state": {},
-      "title": "Netherite Chest",
+    "gold_barrel": {
       "icon": {
         "item": {
           "id": "minecraft:air",
@@ -14,10 +11,27 @@
         },
         "type": "heracles:item"
       },
-      "type": "heracles:block_interaction"
+      "item": "expandedstorage:gold_barrel",
+      "title": "Use a Gold Barrel",
+      "type": "heracles:item_interaction"
     }
   },
   "rewards": {
+    "gold": {
+      "title": "Gold!",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "minecraft:gold_ingot",
+        "count": 8
+      },
+      "type": "heracles:item"
+    },
     "xp": {
       "icon": {
         "item": {
@@ -27,24 +41,9 @@
         "type": "heracles:item"
       },
       "xptype": "POINTS",
-      "amount": 100,
-      "title": "100 XP points",
+      "amount": 25,
+      "title": "25 XP points",
       "type": "heracles:xp"
-    },
-    "netherite": {
-      "title": "Duplication Glitch?",
-      "icon": {
-        "item": {
-          "id": "minecraft:netherite_ingot",
-          "count": 1
-        },
-        "type": "heracles:item"
-      },
-      "item": {
-        "id": "minecraft:netherite_ingot",
-        "count": 2
-      },
-      "type": "heracles:item"
     }
   },
   "display": {
@@ -52,26 +51,26 @@
       "text": ""
     },
     "description": [
-      "WOW Your so rich! I'm starting to think you are swag. Keep it up!"
+      "Your really wasting your riches on this... bi- I mean barrel."
     ],
     "groups": {
       "Storage": {
         "position": [
-          -25,
-          160
+          25,
+          80
         ]
       }
     },
     "icon": {
       "item": {
-        "id": "expandedstorage:netherite_chest",
+        "id": "expandedstorage:gold_barrel",
         "count": 1
       },
       "type": "heracles:item"
     },
-    "icon_background": "heracles:textures/gui/quest_backgrounds/diamonds.png",
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Netherite Chest"
+      "translate": "Gold Barrel"
     }
   },
   "settings": {
