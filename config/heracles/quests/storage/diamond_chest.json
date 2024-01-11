@@ -1,25 +1,24 @@
 {
   "dependencies": [
-    "first_day"
+    "gold_chest"
   ],
   "tasks": {
-    "bandage": {
-      "type": "heracles:item",
-      "item": "majruszsdifficulty:bandage",
-      "amount": 1,
-      "collection": "AUTOMATIC",
-      "title": "Healing",
+    "diamond_chest_interaction": {
+      "block": "expandedstorage:diamond_chest",
+      "state": {},
+      "title": "Use a Diamond Chest",
       "icon": {
         "item": {
           "id": "minecraft:air",
           "count": 0
         },
         "type": "heracles:item"
-      }
+      },
+      "type": "heracles:block_interaction"
     }
   },
   "rewards": {
-    "25": {
+    "xp": {
       "icon": {
         "item": {
           "id": "minecraft:air",
@@ -32,8 +31,8 @@
       "title": "25 XP points",
       "type": "heracles:xp"
     },
-    "bandage": {
-      "title": "Your to hot to die.",
+    "diamond": {
+      "title": "hint hint nudge nudge",
       "icon": {
         "item": {
           "id": "minecraft:air",
@@ -42,8 +41,8 @@
         "type": "heracles:item"
       },
       "item": {
-        "id": "majruszsdifficulty:bandage",
-        "count": 4
+        "id": "minecraft:diamond",
+        "count": 8
       },
       "type": "heracles:item"
     }
@@ -53,33 +52,33 @@
       "text": ""
     },
     "description": [
-      "The night can be dangerious sometimes! Make sure to take bandages incase you are bleeding. Wouldn't want to bleed to death. Now that would be a little embarrassing."
+      "Wow how baller! Diamonds to burn huh? So you when you giving me my diamond?"
     ],
     "groups": {
-      "Milestones": {
+      "Storage": {
         "position": [
-          55,
-          -50
+          -25,
+          80
         ]
       }
     },
     "icon": {
       "item": {
-        "id": "majruszsdifficulty:advancement_bleeding",
+        "id": "expandedstorage:diamond_chest",
         "count": 1
       },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "The night can be dangerous!"
+      "translate": "Diamond Chest"
     }
   },
   "settings": {
-    "unlockNotification": true,
+    "unlockNotification": false,
     "showDependencyArrow": true,
     "repeatable": false,
     "individual_progress": false,
-    "hidden": "IN_PROGRESS"
+    "hidden": "LOCKED"
   }
 }

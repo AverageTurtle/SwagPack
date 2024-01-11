@@ -1,25 +1,24 @@
 {
   "dependencies": [
-    "first_day"
+    "obsidian_chest"
   ],
   "tasks": {
-    "bandage": {
-      "type": "heracles:item",
-      "item": "majruszsdifficulty:bandage",
-      "amount": 1,
-      "collection": "AUTOMATIC",
-      "title": "Healing",
+    "netherite_chest": {
+      "block": "expandedstorage:netherite_chest",
+      "state": {},
+      "title": "Netherite Chest",
       "icon": {
         "item": {
           "id": "minecraft:air",
           "count": 0
         },
         "type": "heracles:item"
-      }
+      },
+      "type": "heracles:block_interaction"
     }
   },
   "rewards": {
-    "25": {
+    "xp": {
       "icon": {
         "item": {
           "id": "minecraft:air",
@@ -28,22 +27,22 @@
         "type": "heracles:item"
       },
       "xptype": "POINTS",
-      "amount": 25,
-      "title": "25 XP points",
+      "amount": 100,
+      "title": "100 XP points",
       "type": "heracles:xp"
     },
-    "bandage": {
-      "title": "Your to hot to die.",
+    "netherite": {
+      "title": "Duplication Glitch?",
       "icon": {
         "item": {
-          "id": "minecraft:air",
-          "count": 0
+          "id": "minecraft:netherite_ingot",
+          "count": 1
         },
         "type": "heracles:item"
       },
       "item": {
-        "id": "majruszsdifficulty:bandage",
-        "count": 4
+        "id": "minecraft:netherite_ingot",
+        "count": 2
       },
       "type": "heracles:item"
     }
@@ -53,33 +52,33 @@
       "text": ""
     },
     "description": [
-      "The night can be dangerious sometimes! Make sure to take bandages incase you are bleeding. Wouldn't want to bleed to death. Now that would be a little embarrassing."
+      "WOW Your so rich! I'm starting to think you are swag. Keep it up!"
     ],
     "groups": {
-      "Milestones": {
+      "Storage": {
         "position": [
-          55,
-          -50
+          -25,
+          160
         ]
       }
     },
     "icon": {
       "item": {
-        "id": "majruszsdifficulty:advancement_bleeding",
+        "id": "expandedstorage:netherite_chest",
         "count": 1
       },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "The night can be dangerous!"
+      "translate": "Netherite Chest"
     }
   },
   "settings": {
-    "unlockNotification": true,
+    "unlockNotification": false,
     "showDependencyArrow": true,
     "repeatable": false,
     "individual_progress": false,
-    "hidden": "IN_PROGRESS"
+    "hidden": "LOCKED"
   }
 }

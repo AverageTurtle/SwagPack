@@ -1,25 +1,22 @@
 {
-  "dependencies": [
-    "first_day"
-  ],
+  "dependencies": [],
   "tasks": {
-    "bandage": {
-      "type": "heracles:item",
-      "item": "majruszsdifficulty:bandage",
-      "amount": 1,
-      "collection": "AUTOMATIC",
-      "title": "Healing",
+    "iron_chest_interaction": {
+      "block": "expandedstorage:iron_chest",
+      "state": {},
+      "title": "Use Iron Chest",
       "icon": {
         "item": {
           "id": "minecraft:air",
           "count": 0
         },
         "type": "heracles:item"
-      }
+      },
+      "type": "heracles:block_interaction"
     }
   },
   "rewards": {
-    "25": {
+    "xp": {
       "icon": {
         "item": {
           "id": "minecraft:air",
@@ -32,8 +29,8 @@
       "title": "25 XP points",
       "type": "heracles:xp"
     },
-    "bandage": {
-      "title": "Your to hot to die.",
+    "iron": {
+      "title": "Woah look more iron!",
       "icon": {
         "item": {
           "id": "minecraft:air",
@@ -42,8 +39,8 @@
         "type": "heracles:item"
       },
       "item": {
-        "id": "majruszsdifficulty:bandage",
-        "count": 4
+        "id": "minecraft:iron_ingot",
+        "count": 8
       },
       "type": "heracles:item"
     }
@@ -53,33 +50,33 @@
       "text": ""
     },
     "description": [
-      "The night can be dangerious sometimes! Make sure to take bandages incase you are bleeding. Wouldn't want to bleed to death. Now that would be a little embarrassing."
+      "A classic iron chest. Great early game option!"
     ],
     "groups": {
-      "Milestones": {
+      "Storage": {
         "position": [
-          55,
-          -50
+          -25,
+          0
         ]
       }
     },
     "icon": {
       "item": {
-        "id": "majruszsdifficulty:advancement_bleeding",
+        "id": "expandedstorage:iron_chest",
         "count": 1
       },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "The night can be dangerous!"
+      "translate": "Iron Chest"
     }
   },
   "settings": {
-    "unlockNotification": true,
+    "unlockNotification": false,
     "showDependencyArrow": true,
     "repeatable": false,
     "individual_progress": false,
-    "hidden": "IN_PROGRESS"
+    "hidden": "LOCKED"
   }
 }

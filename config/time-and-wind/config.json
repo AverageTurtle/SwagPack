@@ -3,7 +3,7 @@
   "syncWithSystemTime": false,
   "systemTimePerDimensions": false,
   "enableNightSkipAcceleration": true,
-  "accelerationSpeed": 20,
+  "accelerationSpeed": 30,
   "enableThreshold": true,
   "thresholdPercentage": 50,
   "flatAcceleration": false,

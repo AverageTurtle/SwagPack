@@ -1,25 +1,24 @@
 {
   "dependencies": [
-    "first_day"
+    "diamond_chest"
   ],
   "tasks": {
-    "bandage": {
-      "type": "heracles:item",
-      "item": "majruszsdifficulty:bandage",
-      "amount": 1,
-      "collection": "AUTOMATIC",
-      "title": "Healing",
+    "obsidian_chest": {
+      "block": "expandedstorage:obsidian_chest",
+      "state": {},
+      "title": "Use an Obsidian Chest",
       "icon": {
         "item": {
           "id": "minecraft:air",
           "count": 0
         },
         "type": "heracles:item"
-      }
+      },
+      "type": "heracles:block_interaction"
     }
   },
   "rewards": {
-    "25": {
+    "xp": {
       "icon": {
         "item": {
           "id": "minecraft:air",
@@ -32,8 +31,8 @@
       "title": "25 XP points",
       "type": "heracles:xp"
     },
-    "bandage": {
-      "title": "Your to hot to die.",
+    "obsidian": {
+      "title": "Crunchy",
       "icon": {
         "item": {
           "id": "minecraft:air",
@@ -42,8 +41,8 @@
         "type": "heracles:item"
       },
       "item": {
-        "id": "majruszsdifficulty:bandage",
-        "count": 4
+        "id": "minecraft:obsidian",
+        "count": 16
       },
       "type": "heracles:item"
     }
@@ -53,33 +52,33 @@
       "text": ""
     },
     "description": [
-      "The night can be dangerious sometimes! Make sure to take bandages incase you are bleeding. Wouldn't want to bleed to death. Now that would be a little embarrassing."
+      "Well I guess its an upgrade?"
     ],
     "groups": {
-      "Milestones": {
+      "Storage": {
         "position": [
-          55,
-          -50
+          -25,
+          120
         ]
       }
     },
     "icon": {
       "item": {
-        "id": "majruszsdifficulty:advancement_bleeding",
+        "id": "expandedstorage:obsidian_chest",
         "count": 1
       },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "The night can be dangerous!"
+      "translate": "Obsidian Chest"
     }
   },
   "settings": {
-    "unlockNotification": true,
+    "unlockNotification": false,
     "showDependencyArrow": true,
     "repeatable": false,
     "individual_progress": false,
-    "hidden": "IN_PROGRESS"
+    "hidden": "LOCKED"
   }
 }

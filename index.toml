@@ -86,7 +86,7 @@ hash = "3da7d5016660bf152342b828e3a42e5c22bc684010c9846220a13e82b7a0e6c7"
 
 [[files]]
 file = "config/time-and-wind/config.json"
-hash = "1d6ca2ec053a5af4f9f69b64e632963872ab78b9aa56db22a12eddd543686490"
+hash = "af7e29484c924e802e6c5f23c20f78617068c3002949591e0aca2810ae59e3d6"
 
 [[files]]
 file = "config/time-and-wind/system-time-data-global.json"
@@ -384,7 +384,7 @@ metafile = true
 
 [[files]]
 file = "mods/botarium.pw.toml"
-hash = "c15609f121f8ce513063251a0d2d46206716efc5addbaf49176cb903f4e35b26"
+hash = "48d98854dc44edf1318dc8a4f0db1a00700b30c80dd78023887703d2633fa3da"
 metafile = true
 
 [[files]]
@@ -519,7 +519,7 @@ metafile = true
 
 [[files]]
 file = "mods/coxinha-utilities.pw.toml"
-hash = "67873245ce8383217a7dbea0640d28457e75e8ba56f95c882c54a1032e23a95f"
+hash = "317c1eee93a32ceec10a588292c583866d4b6179fd183608940068e5ed4d9884"
 metafile = true
 
 [[files]]
@@ -764,7 +764,7 @@ metafile = true
 
 [[files]]
 file = "mods/extended-drawers.pw.toml"
-hash = "d5703dbab81221abd81236f249b3f6256101debee1bea643bf0e20835193fce2"
+hash = "06859e85abd86899e44b38c090d53f5804550aca2a23924fbb6bb1867d0b859a"
 metafile = true
 
 [[files]]
@@ -1675,11 +1675,6 @@ metafile = true
 [[files]]
 file = "mods/simple-hats.pw.toml"
 hash = "785a9317dde69152877bd175024e7207508b56da6e003094e115f925fe1fbcda"
-metafile = true
-
-[[files]]
-file = "mods/simple-uncrafting-table.pw.toml"
-hash = "53567c5d6a56694d91d42d6fa7fdd9a824be23c0eef0f21393cd3cbe4007b18d"
 metafile = true
 
 [[files]]

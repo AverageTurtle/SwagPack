@@ -1,25 +1,24 @@
 {
   "dependencies": [
-    "first_day"
+    "iron_chest"
   ],
   "tasks": {
-    "bandage": {
-      "type": "heracles:item",
-      "item": "majruszsdifficulty:bandage",
-      "amount": 1,
-      "collection": "AUTOMATIC",
-      "title": "Healing",
+    "gold_chest": {
+      "block": "expandedstorage:gold_chest",
+      "state": {},
+      "title": "Use a Gold Chest",
       "icon": {
         "item": {
-          "id": "minecraft:air",
-          "count": 0
+          "id": "expandedstorage:gold_chest",
+          "count": 1
         },
         "type": "heracles:item"
-      }
+      },
+      "type": "heracles:block_interaction"
     }
   },
   "rewards": {
-    "25": {
+    "xp": {
       "icon": {
         "item": {
           "id": "minecraft:air",
@@ -32,8 +31,8 @@
       "title": "25 XP points",
       "type": "heracles:xp"
     },
-    "bandage": {
-      "title": "Your to hot to die.",
+    "gold": {
+      "title": "Woah look you really are rich!",
       "icon": {
         "item": {
           "id": "minecraft:air",
@@ -42,8 +41,8 @@
         "type": "heracles:item"
       },
       "item": {
-        "id": "majruszsdifficulty:bandage",
-        "count": 4
+        "id": "minecraft:gold_ingot",
+        "count": 8
       },
       "type": "heracles:item"
     }
@@ -53,33 +52,33 @@
       "text": ""
     },
     "description": [
-      "The night can be dangerious sometimes! Make sure to take bandages incase you are bleeding. Wouldn't want to bleed to death. Now that would be a little embarrassing."
+      "Wow so your like rich now? Wanna like... idk go out some time? Your paying ofcourse."
     ],
     "groups": {
-      "Milestones": {
+      "Storage": {
         "position": [
-          55,
-          -50
+          -25,
+          40
         ]
       }
     },
     "icon": {
       "item": {
-        "id": "majruszsdifficulty:advancement_bleeding",
+        "id": "expandedstorage:gold_chest",
         "count": 1
       },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "The night can be dangerous!"
+      "translate": "Gold Chest"
     }
   },
   "settings": {
-    "unlockNotification": true,
+    "unlockNotification": false,
     "showDependencyArrow": true,
     "repeatable": false,
     "individual_progress": false,
-    "hidden": "IN_PROGRESS"
+    "hidden": "LOCKED"
   }
 }

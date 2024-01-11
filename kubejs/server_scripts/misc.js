@@ -6,7 +6,13 @@ ServerEvents.recipes(event => {
         "minecraft:stick",
         "#minecraft:signs"
     )
-    
+
+    // Diamond Chest/Barrel
+    event.replaceInput(
+        { mod: "expandedstorage", input: "#c:glass"},
+        "#c:glass",
+        "minecraft:diamond"
+    )
 
     // Remove Indrev Hammer
     event.remove({ output: "indrev:hammer" })
