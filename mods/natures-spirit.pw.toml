@@ -3,11 +3,11 @@ filename = "naturespirit-1.4.0-1.20.1.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/WBvnqHfV/versions/F38N9uGp/naturespirit-1.4.0-1.20.1.jar"
+url = "https://cdn.modrinth.com/data/WBvnqHfV/versions/P4YK5b9p/naturespirit-1.4.0-1.20.1.jar"
 hash-format = "sha1"
-hash = "d2d274d090c0c83d4ba52ee384416063839c8c6e"
+hash = "a9f0f0e4ec2a8a2efd07f895377eedc2ab619cc3"
 
 [update]
 [update.modrinth]
 mod-id = "WBvnqHfV"
-version = "F38N9uGp"
+version = "P4YK5b9p"

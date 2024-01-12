@@ -34,7 +34,7 @@ hash = "36a4d9f5da68f6801b83ce0c4a1a8805fbeffb0dd997f2d405465d7774522296"
 
 [[files]]
 file = "config/heracles/groups.txt"
-hash = "dd89dcc2603684e7ce2917c35170abf5cd4cc1ac631ea5941761db954cae0951"
+hash = "d4d770667fb7653738ab04151e84a1cd3a0b3bac40a4739b7768504b328f0ba2"
 
 [[files]]
 file = "config/heracles/quests/milestones/first_day.json"
@@ -42,11 +42,55 @@ hash = "1992a3702aa0ac582b4d7be833720df72e1123f4a61b7b6fb393ce3dd9dc8189"
 
 [[files]]
 file = "config/heracles/quests/milestones/survive_the_night.json"
-hash = "0ace1de12be8c1357bedb57783657439108b92802b038a75f373dde72bc8a6c0"
+hash = "cc6da784a8aa562e6c32482c82e02c423056c7b670c7b8c1fd5a647f2889ffaf"
 
 [[files]]
 file = "config/heracles/quests/milestones/you_really_are_swag.json"
 hash = "fd07339bdb2ecf7b7e57f6839f7203e0e19a14d18b36c8323f7d6ce965f82f87"
+
+[[files]]
+file = "config/heracles/quests/storage/copper_barrel.json"
+hash = "d9c145673802363c843a3649e31b92af20561c34d7d5788ecb711ff1f4f85d9d"
+
+[[files]]
+file = "config/heracles/quests/storage/diamond_barrel.json"
+hash = "d8bcaf91d78af7b1d4f2acb47979c1336de3c6f5f77cea432f710b9e66115f46"
+
+[[files]]
+file = "config/heracles/quests/storage/diamond_chest.json"
+hash = "d9c88189d5d6b34903ac2f4a14fc8bca0afcea2232641d14920c378fd98d3a0c"
+
+[[files]]
+file = "config/heracles/quests/storage/gold_barrel.json"
+hash = "b886368726686134561df5be1738dc80283cfde74ea20bc44a70c13a3b4a86a9"
+
+[[files]]
+file = "config/heracles/quests/storage/gold_chest.json"
+hash = "fc560d205f71e8296b128e95d9abe5e540aae27d6554818ee1f119efd8ed015a"
+
+[[files]]
+file = "config/heracles/quests/storage/iron_barrel.json"
+hash = "511a0a57865887d0a29e67bc8d8922d36454d8525a87eaa27d42df5d0036a257"
+
+[[files]]
+file = "config/heracles/quests/storage/iron_chest.json"
+hash = "9cc5c74c98f7d54ca59002de956ba24a75370b3ffe3ed67f70bd540735544c82"
+
+[[files]]
+file = "config/heracles/quests/storage/netherite_barrel.json"
+hash = "dde6d3eb700a8b747c6afe368ffef016c69d88e20c35a8e686e26b42370baaf0"
+
+[[files]]
+file = "config/heracles/quests/storage/netherite_chest.json"
+hash = "6aab36adf03ef43810b75ced160b61b47f4b76f01863ae4f243bad95cbaea9ec"
+
+[[files]]
+file = "config/heracles/quests/storage/obsidian_barrel.json"
+hash = "839eb73015ec1f49977a1e9d2c1fd9022405573fd7acdadb9bb7d5b800a9e9fd"
+
+[[files]]
+file = "config/heracles/quests/storage/obsidian_chest.json"
+hash = "20e823df80a35173ecb62bdcfebf283bbf28280f56633974355f6b2dfb2e3a18"
 
 [[files]]
 file = "config/heracles/tutorial.html"
@@ -114,7 +158,7 @@ hash = "aca11f569d9fd4cd8d1aaabb236023add82d7a273601695020cbf517b263a9bf"
 
 [[files]]
 file = "kubejs/client_scripts/rei.js"
-hash = "da37efca0b75274c14c357236ab14c88d8cb5bca942997846fb11986a7368589"
+hash = "08100f4c2c89315ba04d6b3ac1e20c94f0c98c1921bbf78a74336a292cdbfcab"
 
 [[files]]
 file = "kubejs/config/client.properties"
@@ -130,7 +174,11 @@ hash = "662a7fc226fe89026bed0b7c4bd4ff6fe8ac78bdff95f56adaabc1860853535a"
 
 [[files]]
 file = "kubejs/server_scripts/misc.js"
-hash = "f7161a16d80249063db6be6e0ee1094e38ab41714b4c4fe43ea8c9c86a6c6ca6"
+hash = "b6c54598fe67e97b70ac835afe2281ed2effb3adef5657f08fee6574eeffb703"
+
+[[files]]
+file = "kubejs/server_scripts/plates.js"
+hash = "c4d34771504b7d92930fa3a21c84f6459ac4187a9ccdf933e65406bdba8ed3f4"
 
 [[files]]
 file = "mods/accelerated-decay.pw.toml"
@@ -384,7 +432,7 @@ metafile = true
 
 [[files]]
 file = "mods/botarium.pw.toml"
-hash = "48d98854dc44edf1318dc8a4f0db1a00700b30c80dd78023887703d2633fa3da"
+hash = "6f3c94c24b727270e851fb923b5347d44b5a401f56c11c8e00beffe099986968"
 metafile = true
 
 [[files]]
@@ -1279,7 +1327,7 @@ metafile = true
 
 [[files]]
 file = "mods/moonlight.pw.toml"
-hash = "102b17c8454f891c368f00e92b4d6f5f226aea018ed0ff3b8b55077cbe48c241"
+hash = "623f1f195db9836fb92ba30b3f77bde29260b172c1427415a562cfaa86365e71"
 metafile = true
 
 [[files]]
@@ -1354,7 +1402,7 @@ metafile = true
 
 [[files]]
 file = "mods/natures-spirit.pw.toml"
-hash = "16c56cc4dae0c089bdd3f708cfd5fcfecfda35adc37ab5070029a13e6e7e60e1"
+hash = "4b40462ce8c7ac0d43a76cee49ae64d79348d02cf90884e4c7ba0d28b4192737"
 metafile = true
 
 [[files]]
@@ -1564,7 +1612,7 @@ metafile = true
 
 [[files]]
 file = "mods/puzzles-lib.pw.toml"
-hash = "7d86c68314998b0854f35128a1a2c45ca8c7e6233a12d39885f76fd12441b6d5"
+hash = "73fa0f7015f038379155c47431a2be5c33ca4871da9f5d1c9f9499868fc13c53"
 metafile = true
 
 [[files]]
@@ -1809,7 +1857,7 @@ metafile = true
 
 [[files]]
 file = "mods/supplementaries.pw.toml"
-hash = "53c4c81ecb4dca2d0a1b0c8ac486360d92e108662a2b50e0c151281176974b12"
+hash = "6100f98bc0f0e598409dc6b640fcf77c8ca4d1319494fc25c0dbd2f5310ba81a"
 metafile = true
 
 [[files]]
@@ -1909,12 +1957,12 @@ metafile = true
 
 [[files]]
 file = "mods/variant-barrels.pw.toml"
-hash = "4d0b5e63ff820914ebda4d79c70461c5f85b8e5c37edc5a785c77b76bf0120e9"
+hash = "80d39c019fd027968853a4df2e844d1136cf4392227fbfc5bb5d620e67b8b96a"
 metafile = true
 
 [[files]]
 file = "mods/variant-bookshelves.pw.toml"
-hash = "1950391d425271e1ac404c70ea4714549418ff7ec52c0ac8f686a563a2cc9a0d"
+hash = "cf7256f1c3d2255545691b45ac2ce6eeaae1fbf8be2741b9848783a047c9ca40"
 metafile = true
 
 [[files]]
@@ -1924,12 +1972,12 @@ metafile = true
 
 [[files]]
 file = "mods/variant-chiseled-bookshelves.pw.toml"
-hash = "c3096ce74fb675fa404493eb11d0f769d84f91db31bb50400e452042663a8a36"
+hash = "2f1949bcf057bf0d4aa266443cc2a3b2d13bc0a7e6839f2ab760b1ba0cd22dc1"
 metafile = true
 
 [[files]]
 file = "mods/variant-composters.pw.toml"
-hash = "1483b797d56e79ccca32ea75de9770121fd1d9cf8d426f5df211f085b656d20d"
+hash = "09dc71d20e87650aff1f1037a6e9d35d0d078e094e7c165f58d2a097daaea296"
 metafile = true
 
 [[files]]

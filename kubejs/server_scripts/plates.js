@@ -21,12 +21,8 @@ ServerEvents.recipes(event => {
         })
         event.custom({
             type:"ad_astra:compressing",
-            input: [
-                { item: input_item }
-            ],
-            output: [
-                { id: output_item, count: 1 }
-            ],
+            input: { item: input_item },
+            output: { id: output_item, count: 1 },
             cookTime: processTime
         })
         // TODO idk if we will actually use this
