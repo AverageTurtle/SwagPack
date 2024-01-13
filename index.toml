@@ -33,6 +33,10 @@ file = "config/create-common.toml"
 hash = "36a4d9f5da68f6801b83ce0c4a1a8805fbeffb0dd997f2d405465d7774522296"
 
 [[files]]
+file = "config/expandedstorage.json"
+hash = "90b54d645a35a91d3b5f97dcad2aca26015ae684ef0eb029b615b79bc327640e"
+
+[[files]]
 file = "config/heracles/groups.txt"
 hash = "d4d770667fb7653738ab04151e84a1cd3a0b3bac40a4739b7768504b328f0ba2"
 
@@ -179,6 +183,10 @@ hash = "b6c54598fe67e97b70ac835afe2281ed2effb3adef5657f08fee6574eeffb703"
 [[files]]
 file = "kubejs/server_scripts/plates.js"
 hash = "c4d34771504b7d92930fa3a21c84f6459ac4187a9ccdf933e65406bdba8ed3f4"
+
+[[files]]
+file = "kubejs/server_scripts/temp_mining_fatigue_fix.js"
+hash = "8a235dde591c6277f956a205d210ab3017774a13d0b61b84d0e020f8bd607a0f"
 
 [[files]]
 file = "mods/accelerated-decay.pw.toml"
@@ -698,11 +706,6 @@ metafile = true
 [[files]]
 file = "mods/duckling.pw.toml"
 hash = "a01deba8400ea1f57197e435685db307d5d8de909ad26d4cd04c0d09c933902a"
-metafile = true
-
-[[files]]
-file = "mods/early-loading-screen.pw.toml"
-hash = "98bdc7cb055dca34ccefdceae1518648ac9fcd82c0147be31f3a7fea81d82e6f"
 metafile = true
 
 [[files]]
@@ -1276,6 +1279,16 @@ hash = "c60ec2ea046a25d7343b7518d12859aa9458392b31cdae18d61e7a7ed2b0d43b"
 metafile = true
 
 [[files]]
+file = "mods/midnightcontrols-extra.pw.toml"
+hash = "563a2484af46ebe381f606733cce8e75450dc8de141a115bb82120ddfc47d535"
+metafile = true
+
+[[files]]
+file = "mods/midnightcontrols.pw.toml"
+hash = "57af1c9e139a9e57de74e7284c43226dff128d34747efba7edba4a0c4b189434"
+metafile = true
+
+[[files]]
 file = "mods/midnightlib.pw.toml"
 hash = "50149a97b2d959bfac8e1c377fdab49fc52f1439d004b1ac1c26a3a7f790e044"
 metafile = true
@@ -1443,6 +1456,11 @@ metafile = true
 [[files]]
 file = "mods/not-enough-animations.pw.toml"
 hash = "6e8f54238b405650aea8f045b138b86d13311fabe8bc0bbebd35f3844c9148e4"
+metafile = true
+
+[[files]]
+file = "mods/nvidium.pw.toml"
+hash = "1cdf189428c566c0dadd12367c0c7f9d571023b42b1a0555370df05e94a5783d"
 metafile = true
 
 [[files]]
@@ -1633,11 +1651,6 @@ metafile = true
 [[files]]
 file = "mods/quad.pw.toml"
 hash = "34237f65d49e396d73a48736d3cd25e4266a9c9a630d9c58adb8a488e82a5c46"
-metafile = true
-
-[[files]]
-file = "mods/reacharound.pw.toml"
-hash = "1bdc2b4d59ee6805bcd05fb4a68782c2a020270a7da21531b245fd03b5ba2426"
 metafile = true
 
 [[files]]
@@ -2038,11 +2051,6 @@ metafile = true
 [[files]]
 file = "mods/wolves-of-other-furs.pw.toml"
 hash = "ccb78614fb49f7a46110628a5cb75299a0e0ceaf94d008f53f928c6f60be292c"
-metafile = true
-
-[[files]]
-file = "mods/wunderreich.pw.toml"
-hash = "f2fa90bb1460fcee29cf2aee3a077e3114b5437a5659587f6d083ff977a19320"
 metafile = true
 
 [[files]]
