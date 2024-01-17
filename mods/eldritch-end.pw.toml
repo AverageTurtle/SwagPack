@@ -1,13 +1,13 @@
 name = "Eldritch End"
-filename = "Eldritch_End-FABRIC-MC1.20.1-0.2.30.jar"
+filename = "Eldritch_End-FABRIC-MC1.20.1-0.2.31.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/nBaXIQY9/versions/hjijvYrR/Eldritch_End-FABRIC-MC1.20.1-0.2.30.jar"
+url = "https://cdn.modrinth.com/data/nBaXIQY9/versions/Xx5Bo3G8/Eldritch_End-FABRIC-MC1.20.1-0.2.31.jar"
 hash-format = "sha1"
-hash = "0ab875c731f5f8d836be4b3d9078fd71f601c8ff"
+hash = "a30420aedf864d1804f5eed5126c3ff2f1cf51ae"
 
 [update]
 [update.modrinth]
 mod-id = "nBaXIQY9"
-version = "hjijvYrR"
+version = "Xx5Bo3G8"

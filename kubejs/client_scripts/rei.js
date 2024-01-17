@@ -29,19 +29,28 @@ const HIDDEN_ITEMS = [
     "energizedpower:diamond_hammer",
     "energizedpower:netherite_hammer",
     "energizedpower:silicon",
-    // hide unused copper plates
+    
+    // copper
     "create:copper_sheet",
     "indrev:copper_plate",
     "energizedpower:copper_plate",
-    // hide unused iron plates
+    "indrev:copper_dust",
+    "energizedpower:copper_dust",
+
+    // gold plates
+    "create:golden_sheet",
+    "indrev:gold_plate",
+    "energizedpower:gold_plate",
+    "indrev:gold_dust",
+    "energizedpower:gold_dust",
+
+    //iron
     "create:iron_sheet",
     "indrev:iron_plate",
     "energizedpower:iron_plate",
     "ad_astra:iron_plate",
-    // hide unused gold plates
-    "create:golden_sheet",
-    "indrev:gold_plate",
-    "energizedpower:gold_plate"
+    "indrev:iron_dust",
+    "energizedpower:iron_dust",
 ];
 
 REIEvents.hide('item', (event) => {

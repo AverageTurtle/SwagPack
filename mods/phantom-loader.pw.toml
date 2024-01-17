@@ -1,0 +1,13 @@
+name = "Phantom Loader"
+filename = "library-fabric-20.1.4.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/mWdDy9A0/versions/sWhP3ogE/library-fabric-20.1.4.jar"
+hash-format = "sha1"
+hash = "fa563a935ff421ebf472e9d51044a63c9c54d93c"
+
+[update]
+[update.modrinth]
+mod-id = "mWdDy9A0"
+version = "sWhP3ogE"
