@@ -193,28 +193,28 @@ file = "kubejs/config/defaultoptions.txt"
 hash = "662a7fc226fe89026bed0b7c4bd4ff6fe8ac78bdff95f56adaabc1860853535a"
 
 [[files]]
+file = "kubejs/server_scripts/Bronze.js"
+hash = "43de125e97f56d7678f1b6ad1e7543b8345e4768f55c92b29e103b4cc8aa2279"
+
+[[files]]
+file = "kubejs/server_scripts/Misc.js"
+hash = "b6c54598fe67e97b70ac835afe2281ed2effb3adef5657f08fee6574eeffb703"
+
+[[files]]
+file = "kubejs/server_scripts/Plates.js"
+hash = "5011318a81c9b73660f9752d166a082380138fef04aa0779126a7a9e13808ecf"
+
+[[files]]
 file = "kubejs/server_scripts/TempMiningFatigueFix.js"
 hash = "8a235dde591c6277f956a205d210ab3017774a13d0b61b84d0e020f8bd607a0f"
 
 [[files]]
 file = "kubejs/server_scripts/Utils.js"
-hash = "d7e50aa5a0f465d5574944936edbe5916079e7ed7c8434de3010a03fc21f7cac"
+hash = "f820aa80eecfd45051e4801e3d4fac9cf475b1df5d8457dd2cffa88bbb7786e1"
 
 [[files]]
 file = "kubejs/server_scripts/VanillaMaterials.js"
-hash = "3328a15dccf6cb1f87b5ff1c20baf55b7b93ce2ab6b040cdce41f387947f46c4"
-
-[[files]]
-file = "kubejs/server_scripts/bronze.js"
-hash = "43de125e97f56d7678f1b6ad1e7543b8345e4768f55c92b29e103b4cc8aa2279"
-
-[[files]]
-file = "kubejs/server_scripts/misc.js"
-hash = "b6c54598fe67e97b70ac835afe2281ed2effb3adef5657f08fee6574eeffb703"
-
-[[files]]
-file = "kubejs/server_scripts/plates.js"
-hash = "5011318a81c9b73660f9752d166a082380138fef04aa0779126a7a9e13808ecf"
+hash = "836ed881d2a4b5b6c123f28a809927b48705a56caa872e499339c0010551d16b"
 
 [[files]]
 file = "kubejs/startup_scripts/example.js"
@@ -248,6 +248,11 @@ metafile = true
 [[files]]
 file = "mods/adventurez.pw.toml"
 hash = "5114753cb4d08fb69cc23ff9bf58c70c3d2411f01c0b828dc24c25fa0cb8994b"
+metafile = true
+
+[[files]]
+file = "mods/ae2-emi-crafting.pw.toml"
+hash = "27bee2dec0693db30bc4a8981d1409d7075f1515ea379f70f3c897a76ec49970"
 metafile = true
 
 [[files]]
@@ -503,6 +508,11 @@ metafile = true
 [[files]]
 file = "mods/cauldron-dyeing.pw.toml"
 hash = "ba3d8c7295d4021b94ce9ff5780198b851021f769d7f2932b110034bb023f2fb"
+metafile = true
+
+[[files]]
+file = "mods/cave-dweller-fabric.pw.toml"
+hash = "64714598d33f89fb868c2a073d5e6738370d543c97c66c3506629257424d185d"
 metafile = true
 
 [[files]]
@@ -766,6 +776,31 @@ hash = "755a85188faa0c454c1c52498274c3286a19a31c82bd1693b5bdc261cead213c"
 metafile = true
 
 [[files]]
+file = "mods/emi-enchanting.pw.toml"
+hash = "f88b04c5b537da9f1d032e3c9dff56648d9c19b7658af065f11d618f5c1c3fdd"
+metafile = true
+
+[[files]]
+file = "mods/emi-loot.pw.toml"
+hash = "8766521465c1cc6b57199a24008be030eabfd417c0ba7eb6c91f26c2f6ffa70a"
+metafile = true
+
+[[files]]
+file = "mods/emi.pw.toml"
+hash = "cc8e6e730c92b194d1fc56c51809a62be7c1719f601a002ac32e6f6fae12dcec"
+metafile = true
+
+[[files]]
+file = "mods/emiffect.pw.toml"
+hash = "2ad35d1b513308d702e9fe45f3c711d63dd1abb8fcbbb40d9a1d7c37d4d5d367"
+metafile = true
+
+[[files]]
+file = "mods/emitrades.pw.toml"
+hash = "a55d562fcd6be9796e8cc162b83b5745efd83254fae44bf5a4d85d0fe6c97fcb"
+metafile = true
+
+[[files]]
 file = "mods/enchanted-vertical-slabs.pw.toml"
 hash = "48f422e0435d5a3fc58a03fe9a35369719ad439bdcc6fb6b5c856ea1979eb2ad"
 metafile = true
@@ -843,6 +878,11 @@ metafile = true
 [[files]]
 file = "mods/extended-drawers.pw.toml"
 hash = "06859e85abd86899e44b38c090d53f5804550aca2a23924fbb6bb1867d0b859a"
+metafile = true
+
+[[files]]
+file = "mods/extra-mod-integrations.pw.toml"
+hash = "2b917cb7ce42faa92e029b4468e6dd580074e49630580b9b3b8014e14c914b07"
 metafile = true
 
 [[files]]
@@ -1112,7 +1152,7 @@ metafile = true
 
 [[files]]
 file = "mods/konkrete.pw.toml"
-hash = "cb9dcdc4983318c41a931582c9ba86226f71871ff4a4eeb7ba6e5acbf9672a1a"
+hash = "aa752298c14f248526b0ceab443cf01a2d4a933a2b73a3efaebc976a6d5fc973"
 metafile = true
 
 [[files]]
@@ -1711,11 +1751,6 @@ hash = "44b0a2294e1693230308e53b529d671a0303e94b623ba2c2650cdf5760a5a335"
 metafile = true
 
 [[files]]
-file = "mods/rei.pw.toml"
-hash = "23d596d1d2e39ae3b05415790663819401fc62d745d6a817e88d9c36d07bce53"
-metafile = true
-
-[[files]]
 file = "mods/resourceful-config.pw.toml"
 hash = "4d4bcf62b73bcc53dbb6d9edfe0ed84b4ad9c267a37807c0c653486add6f89a8"
 metafile = true
@@ -1743,11 +1778,6 @@ metafile = true
 [[files]]
 file = "mods/rings-of-ascension.pw.toml"
 hash = "0475d0ddd5d38ccccc1991c495efbde47936e6b81a025080cb32cc74ca09c1c5"
-metafile = true
-
-[[files]]
-file = "mods/roughly-enough-professions-rep.pw.toml"
-hash = "099f4613975cba72fd83510efccfa85c4c15e446aebf082584c24e87f2ab918e"
 metafile = true
 
 [[files]]

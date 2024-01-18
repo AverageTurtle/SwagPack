@@ -31,12 +31,13 @@ ServerEvents.recipes(event => {
     }
 
     // Copper
-    event.remove({ output: "indrev:copper_plate" })
+
+    //event.remove({ output: "indrev:copper_plate" })     //TODO uncomment when indrev is back!
     event.remove({ output: "energizedpower:copper_plate" })
     event.remove({ output: "create:copper_sheet" })
     createPlateRecipes(event, "minecraft:copper_ingot", "modern_industrialization:copper_plate", 200, false, false)
 
-    event.remove({ output: "indrev:copper_dust" })
+    //event.remove({ output: "indrev:copper_dust" })     //TODO uncomment when indrev is back!
     event.remove({ output: "energizedpower:copper_dust" })
     createVanillaMaterialIndrevPulverizeRecipes("copper", 100)
     createVanillaMaterialEPPulverizerRecipes("copper")
@@ -44,24 +45,24 @@ ServerEvents.recipes(event => {
 
     // Iron
     event.remove({ output: "ad_astra:iron_plate" })
-    event.remove({ output: "indrev:iron_plate" })
+    //event.remove({ output: "indrev:iron_plate" })     //TODO uncomment when indrev is back!
     event.remove({ output: "energizedpower:iron_plate" })
     event.remove({ output: "create:iron_sheet" })
     createPlateRecipes(event, "minecraft:iron_ingot", "modern_industrialization:iron_plate", 200, false, false)
 
-    event.remove({ output: "indrev:iron_dust" })
+    //event.remove({ output: "indrev:iron_dust" })      //TODO uncomment when indrev is back!
     event.remove({ output: "energizedpower:iron_dust" })
     createVanillaMaterialIndrevPulverizeRecipes("iron", 200)
     createVanillaMaterialEPPulverizerRecipes("iron")
 
     // Gold
-    event.remove({ output: "indrev:gold_plate" })
+    //event.remove({ output: "indrev:gold_plate" })     //TODO uncomment when indrev is back!
     event.remove({ output: "energizedpower:gold_plate" })
     event.remove({ output: "create:golden_sheet" })
     createPlateRecipes(event, "minecraft:gold_ingot", "modern_industrialization:gold_plate", 200, false, false)
 
     
-    event.remove({ output: "indrev:gold_dust" })
+    //event.remove({ output: "indrev:gold_dust" })      //TODO uncomment when indrev is back!
     event.remove({ output: "energizedpower:gold_dust" })
     createVanillaMaterialIndrevPulverizeRecipes("gold", 100)
     createVanillaMaterialEPPulverizerRecipes("gold")

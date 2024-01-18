@@ -35,6 +35,8 @@ ServerEvents.recipes(event => {
         "minecraft:iron", "#c:iron_plate"
     )
 
+    //TODO uncomment when indrev is back!
+    /*
     // Remove Indrev tin
     event.remove({ output: "indrev:raw_tin_block" })
     event.remove({ output: "indrev:raw_tin" })
@@ -98,6 +100,8 @@ ServerEvents.recipes(event => {
     //NOTE: tin plate moved to plates.js
     event.remove({ output: "indrev:tin_nugget" })
 
+    */
+   
     // Remove Mythic Metal Tin
     event.remove({ output: "mythicmetals:tin_ingot" })
     event.remove({ output: "mythicmetals:raw_tin" })

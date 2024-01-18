@@ -3,6 +3,8 @@
 // ONLY REMOVES RECIPES!!
 // Doesn't include ores atm
 function removeIndrevMaterial(event, material, removeTools, removeArmor) {
+    //TODO uncomment when indrev is back!
+    /*
     event.remove({ output: "indrev:${material}_block" })
     event.remove({ output: "indrev:${material}_ingot" })
     event.remove({ output: "indrev:${material}_dust" })
@@ -24,6 +26,7 @@ function removeIndrevMaterial(event, material, removeTools, removeArmor) {
         event.remove({ output: "indrev:${material}_leggings" })
         event.remove({ output: "indrev:${material}_boots" })
     }
+    */
 }
 
 function epPulverizerRecipe(event, input_item, output_item, output_percentages) {
@@ -56,6 +59,8 @@ function epPulverizerTagRecipe(event, input_item, output_item, output_percentage
 }
 
 function indrevPulverizeRecipe(event, input_item, input_count, output_item, output_count, processT) {
+    //TODO uncomment when indrev is back!
+    /*
     event.custom({
         type: "indrev:pulverize",
         ingredients: {
@@ -68,8 +73,11 @@ function indrevPulverizeRecipe(event, input_item, input_count, output_item, outp
         },
         processTime: processT
     })
+    */
 }
 function indrevPulverizeTagRecipe(event, input_tag, input_count, output_item, output_count, processT) {
+    //TODO uncomment when indrev is back!
+    /*
     event.custom({
         type: "indrev:pulverize",
         ingredients: {
@@ -82,9 +90,12 @@ function indrevPulverizeTagRecipe(event, input_tag, input_count, output_item, ou
         },
         processTime: processT
     })
+    */
 }
 
 function createPlateRecipes(event, input_item, output_item, processT, hard, addModernIndustrialization) {
+    //TODO uncomment when indrev is back!
+    /*
     event.custom({
         type: "indrev:compress",
         ingredients: [
@@ -95,6 +106,8 @@ function createPlateRecipes(event, input_item, output_item, processT, hard, addM
         ],
         processTime: processT
     })
+    */
+   
     event.custom({
         type: "energizedpower:compressor",
         ingredient: { item: input_item },
