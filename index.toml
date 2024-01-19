@@ -29,6 +29,10 @@ file = "config/artifacts/common.json5"
 hash = "1d246e419277df6ffa1e67041faf7b6f8a826bcf1da498952ba3d288b8f01d18"
 
 [[files]]
+file = "config/cave-dweller-config.json5"
+hash = "3ee5fe6489df9f12f32e7a98e5b03bf20709f0ae40618bdc7c25147b1c6408f2"
+
+[[files]]
 file = "config/create-common.toml"
 hash = "36a4d9f5da68f6801b83ce0c4a1a8805fbeffb0dd997f2d405465d7774522296"
 
@@ -198,7 +202,7 @@ hash = "43de125e97f56d7678f1b6ad1e7543b8345e4768f55c92b29e103b4cc8aa2279"
 
 [[files]]
 file = "kubejs/server_scripts/Misc.js"
-hash = "b6c54598fe67e97b70ac835afe2281ed2effb3adef5657f08fee6574eeffb703"
+hash = "e714865428ff1d7a3ae04a95eb0544490d85a6f85fb471fb5a17f62b912dee07"
 
 [[files]]
 file = "kubejs/server_scripts/Plates.js"
@@ -210,11 +214,11 @@ hash = "8a235dde591c6277f956a205d210ab3017774a13d0b61b84d0e020f8bd607a0f"
 
 [[files]]
 file = "kubejs/server_scripts/Utils.js"
-hash = "f820aa80eecfd45051e4801e3d4fac9cf475b1df5d8457dd2cffa88bbb7786e1"
+hash = "e00695413aad0e77ab42c0881cd4963039dc7e080c3aea0536d6f2f37ac56c7b"
 
 [[files]]
 file = "kubejs/server_scripts/VanillaMaterials.js"
-hash = "836ed881d2a4b5b6c123f28a809927b48705a56caa872e499339c0010551d16b"
+hash = "4428d2e30b4002e58a04192055be223107b18ae6369ac235b812f5de76e72e3d"
 
 [[files]]
 file = "kubejs/startup_scripts/example.js"
@@ -508,6 +512,11 @@ metafile = true
 [[files]]
 file = "mods/cauldron-dyeing.pw.toml"
 hash = "ba3d8c7295d4021b94ce9ff5780198b851021f769d7f2932b110034bb023f2fb"
+metafile = true
+
+[[files]]
+file = "mods/cave-dweller-evolved-(fabric).pw.toml"
+hash = "ac93b05d8dad3537436c4ac2adcc6be8edfedd52cb09c1a36a37f784888ef8e6"
 metafile = true
 
 [[files]]
@@ -1051,11 +1060,6 @@ hash = "0c5e71addef34c8dcd1c81dfc2ad851a3e274b9d8d3a7d388e1113d4139bf8d8"
 metafile = true
 
 [[files]]
-file = "mods/industrial-revolution.pw.toml"
-hash = "7ddf3f34470f65d8ddf275d1009a029e1ff92949368efff2b38fd4c8ee658383"
-metafile = true
-
-[[files]]
 file = "mods/infinitybuttons.pw.toml"
 hash = "3d9b2eaf60c3abc7e39022e3a6faacc582cd87fc5d4fd5218292e672991b6ffa"
 metafile = true
@@ -1133,11 +1137,6 @@ metafile = true
 [[files]]
 file = "mods/kambrik.pw.toml"
 hash = "a6d6587d3a6d9e1cc905c2b92c651b8fa9dea764ef29918de24c64fd51aa0587"
-metafile = true
-
-[[files]]
-file = "mods/keybind-fix.pw.toml"
-hash = "48777d535f2dbe76ec2adb6a001ab4442e40e0e403570eb5dc9a49e6957e40a1"
 metafile = true
 
 [[files]]
@@ -1428,11 +1427,6 @@ metafile = true
 [[files]]
 file = "mods/mouse-tweaks.pw.toml"
 hash = "669008dbd2508a67f8c409096cf2357de450f26a69494289e5852045ade7d358"
-metafile = true
-
-[[files]]
-file = "mods/moving-elevators.pw.toml"
-hash = "398b64865bcfe5861197d9ab263b18b5e33889033be1e621335359600b49f414"
 metafile = true
 
 [[files]]
