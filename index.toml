@@ -520,11 +520,6 @@ hash = "ac93b05d8dad3537436c4ac2adcc6be8edfedd52cb09c1a36a37f784888ef8e6"
 metafile = true
 
 [[files]]
-file = "mods/cave-dweller-fabric.pw.toml"
-hash = "64714598d33f89fb868c2a073d5e6738370d543c97c66c3506629257424d185d"
-metafile = true
-
-[[files]]
 file = "mods/cc-tweaked.pw.toml"
 hash = "bcaceffce281382be8a9a6fe5215f79e3edf5b5968eac57bd62162172b4d7616"
 metafile = true
