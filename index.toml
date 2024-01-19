@@ -231,7 +231,7 @@ metafile = true
 
 [[files]]
 file = "mods/ad-astra.pw.toml"
-hash = "7369c791dded61fa8d660ee08f3a68ef8e7ca4b20d6a1e376495ee5aa41a8b66"
+hash = "ae7cf3dc5ae9d26079599ca6d2fe6e5c790ec84e003aa4ce6fc33b2230d7d632"
 metafile = true
 
 [[files]]
@@ -251,7 +251,7 @@ metafile = true
 
 [[files]]
 file = "mods/adventurez.pw.toml"
-hash = "5114753cb4d08fb69cc23ff9bf58c70c3d2411f01c0b828dc24c25fa0cb8994b"
+hash = "1ff9974ec2f43d1ca32c90cae5fb0159a7b8116c1a8c58a0d8a235e27110c1e6"
 metafile = true
 
 [[files]]
@@ -302,6 +302,11 @@ metafile = true
 [[files]]
 file = "mods/aquamirae.pw.toml"
 hash = "ea42747450c6c385925895e98de7c1347c6e24b034bbaee198d5dfda4bb8eb1d"
+metafile = true
+
+[[files]]
+file = "mods/arcanus-continuum.pw.toml"
+hash = "3d5ce775f99b2e5bd8b6fb2b5b08f24ba3ff7144f6a2c29806c8c28a7bf80790"
 metafile = true
 
 [[files]]
@@ -376,7 +381,7 @@ metafile = true
 
 [[files]]
 file = "mods/azurelib.pw.toml"
-hash = "9fa8882ae82b94c555f029eb0c078c2d2d286700d8e4467e32301bd13d3e1ee4"
+hash = "deaea581c3779fc9e553aad276357abb3af94b1bd20dbfe9919ae0d975646fa4"
 metafile = true
 
 [[files]]
@@ -1241,7 +1246,7 @@ metafile = true
 
 [[files]]
 file = "mods/macaws-furniture.pw.toml"
-hash = "2c75cc3e4cc3b09d7a62a42f79d4f5f0c867d06b1c792789097ba1ac41fca8c6"
+hash = "aca145c5044f2ad8829d0b1ac60f9850ee2d6e1e890ead07f59e94a721b46d55"
 metafile = true
 
 [[files]]
@@ -1481,7 +1486,7 @@ metafile = true
 
 [[files]]
 file = "mods/necronomicon.pw.toml"
-hash = "3b76fde63553524591eac962a11d8b29ec7f45114487c7b00119264fdd4d8852"
+hash = "91a6265d6568a1c322c93c677b4e995fd996b2d248039e299260a5304bd3ee28"
 metafile = true
 
 [[files]]
@@ -1850,6 +1855,11 @@ hash = "96e3771cd09bb4a808d1c1fcb5a050efdc2ffb4efe7b584407ed54c46c0388d9"
 metafile = true
 
 [[files]]
+file = "mods/sparkweave.pw.toml"
+hash = "a50ffa391e27e4314e222789f320cc42397aff9d0c10473619e29cdf7ce49c89"
+metafile = true
+
+[[files]]
 file = "mods/spawn-mod.pw.toml"
 hash = "927c71c5e1dd31b493cae432ed0bdfb074f52d2e9dbc6632a95c890e5ec04aa5"
 metafile = true
@@ -2071,7 +2081,7 @@ metafile = true
 
 [[files]]
 file = "mods/voidz.pw.toml"
-hash = "0a2bb80b81b744865b11495a66b1665bae10a7b0bc9d772fd5e0827c222dccba"
+hash = "e7667444039cd243e349ea1ae6ef97e2b405c619e3102bb0522cf7ede009c451"
 metafile = true
 
 [[files]]
