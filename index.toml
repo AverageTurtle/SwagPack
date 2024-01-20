@@ -197,6 +197,10 @@ file = "kubejs/config/defaultoptions.txt"
 hash = "662a7fc226fe89026bed0b7c4bd4ff6fe8ac78bdff95f56adaabc1860853535a"
 
 [[files]]
+file = "kubejs/data/minecraft/tags/items/signs.json"
+hash = "66354d6ac194bb64f71fad6f5fbc2cbc12bd06632bc2630f740878f1d043e534"
+
+[[files]]
 file = "kubejs/server_scripts/Bronze.js"
 hash = "43de125e97f56d7678f1b6ad1e7543b8345e4768f55c92b29e103b4cc8aa2279"
 
@@ -1241,7 +1245,7 @@ metafile = true
 
 [[files]]
 file = "mods/macaws-fences-and-walls.pw.toml"
-hash = "44d062aefc6e88fb5d2021376868b3c8dc525b2953af9101e8394d2a152be9bf"
+hash = "da4ab807bde0d83a4013f475fb0d48526409ff6785a7ba727b798b2ec9c92f28"
 metafile = true
 
 [[files]]
@@ -1725,6 +1729,11 @@ hash = "34237f65d49e396d73a48736d3cd25e4266a9c9a630d9c58adb8a488e82a5c46"
 metafile = true
 
 [[files]]
+file = "mods/reacharound.pw.toml"
+hash = "1bdc2b4d59ee6805bcd05fb4a68782c2a020270a7da21531b245fd03b5ba2426"
+metafile = true
+
+[[files]]
 file = "mods/rechiseled-create.pw.toml"
 hash = "fe4278916c7a5453dedeb4361817489ae9084bb0f2abba44b5164ec3293a491b"
 metafile = true
@@ -1827,6 +1836,16 @@ metafile = true
 [[files]]
 file = "mods/smartbrainlib.pw.toml"
 hash = "bd0b125bd9c0f016ee541acf95f7fe87407933c35314a297a1fa08cd91a9f04a"
+metafile = true
+
+[[files]]
+file = "mods/snow-under-trees-remastered.pw.toml"
+hash = "bdef145ae9d90efeb7d4e326e3e39b588e1183c9acb9eb2680d95e4d5386d889"
+metafile = true
+
+[[files]]
+file = "mods/snowyleavesplus.pw.toml"
+hash = "69461cd5a6ee742d0ca42fd206fcde7dfd8b0be836d8266af167c38ae3edbda0"
 metafile = true
 
 [[files]]

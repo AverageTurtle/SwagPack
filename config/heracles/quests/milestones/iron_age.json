@@ -1,0 +1,88 @@
+{
+  "dependencies": [
+    "first_day"
+  ],
+  "tasks": {
+    "iron": {
+      "type": "heracles:item",
+      "item": "minecraft:iron_ingot",
+      "amount": 8,
+      "collection": "AUTOMATIC",
+      "title": "Get some iron!",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "iron_pickaxe": {
+      "title": "Save yourself some time",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "minecraft:iron_pickaxe",
+        "count": 1,
+        "nbt": {
+          "Damage": 0
+        }
+      },
+      "type": "heracles:item"
+    },
+    "xp_points": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "xptype": "POINTS",
+      "amount": 25,
+      "title": "25 XP points",
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "Nice job! You survived the first day! You did survive right? Well either way time to get some iron. The game will open up to you greatly after that. Time for the fun stuff >:)"
+    ],
+    "groups": {
+      "Milestones": {
+        "position": [
+          110,
+          0
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:iron_ingot",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Freshly Ironed"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}
