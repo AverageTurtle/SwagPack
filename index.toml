@@ -49,6 +49,10 @@ file = "config/heracles/quests/milestones/first_day.json"
 hash = "1992a3702aa0ac582b4d7be833720df72e1123f4a61b7b6fb393ce3dd9dc8189"
 
 [[files]]
+file = "config/heracles/quests/milestones/iron_age.json"
+hash = "61f898991d439d9b0ec14b345a7b6569f3e5cccb9d707bd3a7b443d567236d37"
+
+[[files]]
 file = "config/heracles/quests/milestones/survive_the_night.json"
 hash = "cc6da784a8aa562e6c32482c82e02c423056c7b670c7b8c1fd5a647f2889ffaf"
 
@@ -113,6 +117,14 @@ file = "config/indrev/oregen.json"
 hash = "683eda4194e2199fbf78c0d39787a9d0a537bc4a6d569d9400bf2912ffc6fc7b"
 
 [[files]]
+file = "config/inventorysorter/blacklist.json5"
+hash = "9f36f88fdb87b6320507f049e9eff15a6622655666bac5122c1c9f694dd2e3d7"
+
+[[files]]
+file = "config/inventorysorter/config.json5"
+hash = "219b71c5758bf5249719688bb6c16146c9d9debdfe2d0d8f8347042468362299"
+
+[[files]]
 file = "config/modern_industrialization.toml"
 hash = "393efbc73744bf4d48eaf09d8332953545f7e09b35da573acca9a90555326505"
 
@@ -169,6 +181,26 @@ file = "config/weeping-angels-spawns"
 hash = "7127f318930bf268774edc0505b173c9ade5af3b5437f21d7e132345bd5f2e94"
 
 [[files]]
+file = "config/weeping_angels-common.toml"
+hash = "7b3baca9307753641a14fef8e20d4c23b2a2a4ef813d219fa6b6670a6b8003fd"
+
+[[files]]
+file = "diggusmaximus/blacklist.json5"
+hash = "7a20ccfbebca1f6fdd7f0285212874b06f9ada427b8be8da16f4d6e0d8c5fb27"
+
+[[files]]
+file = "diggusmaximus/config.json5"
+hash = "3eb3a92245496bbe0c8a64c15e9b0016dc2d7fc11375b8ed46d0774e473b924c"
+
+[[files]]
+file = "diggusmaximus/excavatingshapes.json5"
+hash = "470a5630aa5b09d4d114ea2b222d5c96533f0b877c96f64e7f8fcfdebe8c09b4"
+
+[[files]]
+file = "diggusmaximus/grouping.json5"
+hash = "195d64bbe953382519e30433d0cb74343cc6a7f24171fc471f0ccf4ad8e6975a"
+
+[[files]]
 file = "kubejs/README.txt"
 hash = "989f3737ae4621b8ff6730bce4cbeeee756921e7e510e0c281c8a350501d98af"
 
@@ -202,11 +234,15 @@ hash = "66354d6ac194bb64f71fad6f5fbc2cbc12bd06632bc2630f740878f1d043e534"
 
 [[files]]
 file = "kubejs/server_scripts/Bronze.js"
-hash = "43de125e97f56d7678f1b6ad1e7543b8345e4768f55c92b29e103b4cc8aa2279"
+hash = "f6199501a0363cee079b48a21928353513eecf47d3d6a52eddfd43fd5fac7eed"
 
 [[files]]
 file = "kubejs/server_scripts/Misc.js"
 hash = "e714865428ff1d7a3ae04a95eb0544490d85a6f85fb471fb5a17f62b912dee07"
+
+[[files]]
+file = "kubejs/server_scripts/New Text Document.txt"
+hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
 
 [[files]]
 file = "kubejs/server_scripts/Plates.js"
@@ -289,6 +325,11 @@ hash = "2d9867b3cfcaa440a82a32c3202ade39239e9c2be390da9a35d5506ba2a83a5d"
 metafile = true
 
 [[files]]
+file = "mods/animal_feeding_trough.pw.toml"
+hash = "eb626a46ca1fab4ee0747a46ef2e0947b5759aa41171aa172041dd1bfb99236e"
+metafile = true
+
+[[files]]
 file = "mods/another-furniture.pw.toml"
 hash = "525c8448074c4402b411c2b904eff4dae542834c649d13dc00475bd2546fe286"
 metafile = true
@@ -310,7 +351,7 @@ metafile = true
 
 [[files]]
 file = "mods/arcanus-continuum.pw.toml"
-hash = "3d5ce775f99b2e5bd8b6fb2b5b08f24ba3ff7144f6a2c29806c8c28a7bf80790"
+hash = "3eb4df1cb0346f773245208fde64e25c52b93ae52dd51bd21afaa94dcc214254"
 metafile = true
 
 [[files]]
@@ -769,6 +810,11 @@ hash = "6640a8327805a089b6108be237efe6a4a73e595bff086d30192ae9c04be2c96d"
 metafile = true
 
 [[files]]
+file = "mods/effective.pw.toml"
+hash = "0defe5f1c4912392940ed43a0acbd7a8df22442768dc8eec63c0790d85d22529"
+metafile = true
+
+[[files]]
 file = "mods/eldritch-end.pw.toml"
 hash = "8d996210dfe6424693786d40418b4fc3665c77ac924de1b44e89d11962387acf"
 metafile = true
@@ -1025,7 +1071,7 @@ metafile = true
 
 [[files]]
 file = "mods/heracles.pw.toml"
-hash = "da490404debedd5439d0b12b9d585405a8bec58e6de6fd04b13ce5a806ceaca9"
+hash = "c287ba3f2646a4d95148d1913281e28c3ef9d67fbabfbbb4145f2be5c4de7dd5"
 metafile = true
 
 [[files]]
@@ -1150,7 +1196,7 @@ metafile = true
 
 [[files]]
 file = "mods/kiwi.pw.toml"
-hash = "2f70dc8711b9d7314328008c6c117d3fddc6be19a98e7742d20fbe9a39e244d4"
+hash = "78d4ac6aa17d84a6c200abd253aca4c2980a5394dbe5aaa960f3ea28f154bb44"
 metafile = true
 
 [[files]]
@@ -1375,7 +1421,7 @@ metafile = true
 
 [[files]]
 file = "mods/mmmmmmmmmmmm.pw.toml"
-hash = "b4463224861981cef469502d49ef74d56358bb68074f466bc4cb9052eaac2916"
+hash = "32f2425608f08f02ced7d11816cc03501e89dd3767fa9a28f0e67e48f16bc101"
 metafile = true
 
 [[files]]
@@ -1410,7 +1456,7 @@ metafile = true
 
 [[files]]
 file = "mods/moonlight.pw.toml"
-hash = "d4262ea81d416c9eea211bcfec4af1658df6fa430a99cc255978fc5911df04bd"
+hash = "973b4504511d552b2ca3ca9c87079614a0c9a97c098d90504e82d581d958e223"
 metafile = true
 
 [[files]]
@@ -1555,7 +1601,7 @@ metafile = true
 
 [[files]]
 file = "mods/omnihopper.pw.toml"
-hash = "422cf9b28e11f5037e6341acdcef71087f56b6c3bae5149910c8e4671b6f1143"
+hash = "bf5fce9a1d5ffa923145c8e178ac6cef28a558340fea8a4832828b5ce4472bce"
 metafile = true
 
 [[files]]
@@ -1615,7 +1661,7 @@ metafile = true
 
 [[files]]
 file = "mods/phantom-loader.pw.toml"
-hash = "a0f4448a0de54877cda20e9c2211aa33818c0e9b79ecdb23a917818b8c46462f"
+hash = "b669d768bbbd41404c9368a7ceed5647587f817a2c6f702de8d66f480492283c"
 metafile = true
 
 [[files]]
@@ -1711,11 +1757,6 @@ metafile = true
 [[files]]
 file = "mods/qkl.pw.toml"
 hash = "47217cc1489533f668d622f2078351a61873be573311a9a94be7293328a849a7"
-metafile = true
-
-[[files]]
-file = "mods/qsl.pw.toml"
-hash = "db2669fd5202942c0d0514c797c198506470e149542ac9d65e33e04f1a01db23"
 metafile = true
 
 [[files]]
@@ -1955,7 +1996,7 @@ metafile = true
 
 [[files]]
 file = "mods/supplementaries.pw.toml"
-hash = "b249dd3fc6125edabfc294601aa200b4f7d0b63cb9f8d59408ee8be7396d7af6"
+hash = "38821c51e3e68ee5758519c8891e4364d62c6bfb5e3f13f69a3929ebfb3e2b33"
 metafile = true
 
 [[files]]
@@ -1970,7 +2011,7 @@ metafile = true
 
 [[files]]
 file = "mods/the-bumblezone-fabric.pw.toml"
-hash = "6aa8933576a1d6d901eb3814ce77c228bb65c927604056664af020f8e8eeb27a"
+hash = "afb66dd88a3dfd2bf9c5739556629e8d5d79153f9d76d5c2a25aea476afda588"
 metafile = true
 
 [[files]]
@@ -2000,7 +2041,7 @@ metafile = true
 
 [[files]]
 file = "mods/toms-peripherals.pw.toml"
-hash = "568211198160083dc50dd331e2b4133e036740a22c428303a5e1c156e7db0553"
+hash = "9e85fda7c9a9f6f961f920d09b8214115d6e783c3fd40a6a4449024d05fcdcdc"
 metafile = true
 
 [[files]]
@@ -2155,7 +2196,7 @@ metafile = true
 
 [[files]]
 file = "mods/yigd.pw.toml"
-hash = "30eb4ef58b844bc7570a276b7132404b1f26071019e40423d1bc7a67bba16aae"
+hash = "b94e3b9a06b0fdd1c40d68d1cfa3b8eca67d17c30ae35c0e4a81555950a20fc3"
 metafile = true
 
 [[files]]

@@ -1,13 +1,13 @@
 name = "Arcanus: Continuum"
-filename = "arcanus-continuum-0.105.0.jar"
+filename = "arcanus-continuum-0.105.1.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/UnnRjucf/versions/ZuCKowDW/arcanus-continuum-0.105.0.jar"
+url = "https://cdn.modrinth.com/data/UnnRjucf/versions/NK0lMwIv/arcanus-continuum-0.105.1.jar"
 hash-format = "sha1"
-hash = "6c894a87bbc216bb1156f5d199e9f1b7f59002d8"
+hash = "857484fac82edc738c838e76fb11bf825a5b5254"
 
 [update]
 [update.modrinth]
 mod-id = "UnnRjucf"
-version = "ZuCKowDW"
+version = "NK0lMwIv"

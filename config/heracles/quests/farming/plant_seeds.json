@@ -1,26 +1,24 @@
 {
-  "dependencies": [
-    "first_day"
-  ],
+  "dependencies": [],
   "tasks": {
-    "iron": {
-      "type": "heracles:item",
-      "item": "minecraft:iron_ingot",
-      "amount": 8,
-      "collection": "AUTOMATIC",
-      "title": "Get some iron!",
+    "plan_seed": {
+      "title": "",
       "icon": {
         "item": {
           "id": "minecraft:air",
           "count": 0
         },
         "type": "heracles:item"
-      }
+      },
+      "advancements": [
+        "minecraft:husbandry/plant_seed"
+      ],
+      "type": "heracles:advancement"
     }
   },
   "rewards": {
-    "iron_pickaxe": {
-      "title": "Save yourself some time",
+    "seed": {
+      "title": "A little jumpstart",
       "icon": {
         "item": {
           "id": "minecraft:air",
@@ -29,11 +27,8 @@
         "type": "heracles:item"
       },
       "item": {
-        "id": "minecraft:iron_pickaxe",
-        "count": 1,
-        "nbt": {
-          "Damage": 0
-        }
+        "id": "minecraft:wheat_seeds",
+        "count": 8
       },
       "type": "heracles:item"
     },
@@ -56,26 +51,23 @@
       "text": ""
     },
     "description": [
-      "Nice job! You survived the first day! You did survive right? Well either way time to get some iron. The game will open up to you greatly after that. Time for the fun stuff >:)"
+      "Time to stop leeching off the villagers. Get your own farm! Now begins your journey to become to most swag farmer of all time!"
     ],
     "groups": {
-      "Milestones": {
+      "Farming": {
         "position": [
-          100,
+          -40,
           0
         ]
       }
     },
     "icon": {
-      "item": {
-        "id": "minecraft:iron_ingot",
-        "count": 1
-      },
+      "item": "#c:seeds",
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Freshly Ironed"
+      "translate": "Planting Your Seed"
     }
   },
   "settings": {

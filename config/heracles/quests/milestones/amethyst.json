@@ -3,12 +3,12 @@
     "first_day"
   ],
   "tasks": {
-    "iron": {
+    "amethyst": {
       "type": "heracles:item",
-      "item": "minecraft:iron_ingot",
+      "item": "minecraft:amethyst_shard",
       "amount": 8,
       "collection": "AUTOMATIC",
-      "title": "Get some iron!",
+      "title": "Magical!",
       "icon": {
         "item": {
           "id": "minecraft:air",
@@ -19,8 +19,8 @@
     }
   },
   "rewards": {
-    "iron_pickaxe": {
-      "title": "Save yourself some time",
+    "reward_amethyst": {
+      "title": "",
       "icon": {
         "item": {
           "id": "minecraft:air",
@@ -29,11 +29,8 @@
         "type": "heracles:item"
       },
       "item": {
-        "id": "minecraft:iron_pickaxe",
-        "count": 1,
-        "nbt": {
-          "Damage": 0
-        }
+        "id": "minecraft:amethyst_shard",
+        "count": 16
       },
       "type": "heracles:item"
     },
@@ -56,26 +53,26 @@
       "text": ""
     },
     "description": [
-      "Nice job! You survived the first day! You did survive right? Well either way time to get some iron. The game will open up to you greatly after that. Time for the fun stuff >:)"
+      ""
     ],
     "groups": {
       "Milestones": {
         "position": [
-          100,
-          0
+          50,
+          50
         ]
       }
     },
     "icon": {
       "item": {
-        "id": "minecraft:iron_ingot",
+        "id": "minecraft:amethyst_shard",
         "count": 1
       },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Freshly Ironed"
+      "translate": "Seems magical?"
     }
   },
   "settings": {

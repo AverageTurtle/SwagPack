@@ -1,14 +1,17 @@
 {
   "dependencies": [
-    "first_day"
+    "iron_age"
   ],
   "tasks": {
-    "iron": {
+    "hammer": {
       "type": "heracles:item",
-      "item": "minecraft:iron_ingot",
-      "amount": 8,
+      "item": "modern_industrialization:iron_hammer",
+      "nbt": {
+        "Damage": 0
+      },
+      "amount": 1,
       "collection": "AUTOMATIC",
-      "title": "Get some iron!",
+      "title": "",
       "icon": {
         "item": {
           "id": "minecraft:air",
@@ -16,11 +19,24 @@
         },
         "type": "heracles:item"
       }
+    },
+    "forge": {
+      "block": "modern_industrialization:forge_hammer",
+      "state": {},
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "type": "heracles:block_interaction"
     }
   },
   "rewards": {
-    "iron_pickaxe": {
-      "title": "Save yourself some time",
+    "Hammer": {
+      "title": "",
       "icon": {
         "item": {
           "id": "minecraft:air",
@@ -29,11 +45,26 @@
         "type": "heracles:item"
       },
       "item": {
-        "id": "minecraft:iron_pickaxe",
+        "id": "modern_industrialization:iron_hammer",
         "count": 1,
         "nbt": {
           "Damage": 0
         }
+      },
+      "type": "heracles:item"
+    },
+    "iron": {
+      "title": "Make some plates!",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "minecraft:iron_ingot",
+        "count": 8
       },
       "type": "heracles:item"
     },
@@ -46,8 +77,8 @@
         "type": "heracles:item"
       },
       "xptype": "POINTS",
-      "amount": 25,
-      "title": "25 XP points",
+      "amount": 50,
+      "title": "50 XP points",
       "type": "heracles:xp"
     }
   },
@@ -56,26 +87,26 @@
       "text": ""
     },
     "description": [
-      "Nice job! You survived the first day! You did survive right? Well either way time to get some iron. The game will open up to you greatly after that. Time for the fun stuff >:)"
+      "The forge? Lex-forge may be dead but this block isn't. This will be your ticket to early game Modern Industrialization machines. You can do many things using this block but it will come at the cost of expensive hammers."
     ],
     "groups": {
       "Milestones": {
         "position": [
-          100,
-          0
+          150,
+          -25
         ]
       }
     },
     "icon": {
       "item": {
-        "id": "minecraft:iron_ingot",
+        "id": "modern_industrialization:forge_hammer",
         "count": 1
       },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Freshly Ironed"
+      "translate": "I thought this was quilt?"
     }
   },
   "settings": {

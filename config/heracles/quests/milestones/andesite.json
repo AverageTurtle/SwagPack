@@ -1,14 +1,14 @@
 {
   "dependencies": [
-    "first_day"
+    "iron_age"
   ],
   "tasks": {
-    "iron": {
+    "andesite_alloy": {
       "type": "heracles:item",
-      "item": "minecraft:iron_ingot",
-      "amount": 8,
+      "item": "create:andesite_alloy",
+      "amount": 16,
       "collection": "AUTOMATIC",
-      "title": "Get some iron!",
+      "title": "",
       "icon": {
         "item": {
           "id": "minecraft:air",
@@ -19,8 +19,8 @@
     }
   },
   "rewards": {
-    "iron_pickaxe": {
-      "title": "Save yourself some time",
+    "andesite_alloy": {
+      "title": "",
       "icon": {
         "item": {
           "id": "minecraft:air",
@@ -29,11 +29,8 @@
         "type": "heracles:item"
       },
       "item": {
-        "id": "minecraft:iron_pickaxe",
-        "count": 1,
-        "nbt": {
-          "Damage": 0
-        }
+        "id": "create:andesite_alloy",
+        "count": 16
       },
       "type": "heracles:item"
     },
@@ -46,8 +43,8 @@
         "type": "heracles:item"
       },
       "xptype": "POINTS",
-      "amount": 25,
-      "title": "25 XP points",
+      "amount": 30,
+      "title": "30 XP points",
       "type": "heracles:xp"
     }
   },
@@ -56,26 +53,26 @@
       "text": ""
     },
     "description": [
-      "Nice job! You survived the first day! You did survive right? Well either way time to get some iron. The game will open up to you greatly after that. Time for the fun stuff >:)"
+      "Andesite alloy? Why andesite? I have no clue but it is the key to the factory. Time to get creating!"
     ],
     "groups": {
       "Milestones": {
         "position": [
-          100,
-          0
+          150,
+          25
         ]
       }
     },
     "icon": {
       "item": {
-        "id": "minecraft:iron_ingot",
+        "id": "create:andesite_alloy",
         "count": 1
       },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Freshly Ironed"
+      "translate": "Get Creating!"
     }
   },
   "settings": {

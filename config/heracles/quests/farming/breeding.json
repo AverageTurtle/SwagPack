@@ -1,26 +1,24 @@
 {
-  "dependencies": [
-    "first_day"
-  ],
+  "dependencies": [],
   "tasks": {
-    "iron": {
-      "type": "heracles:item",
-      "item": "minecraft:iron_ingot",
-      "amount": 8,
-      "collection": "AUTOMATIC",
-      "title": "Get some iron!",
+    "breeding": {
+      "title": "Breed an animal you animal!",
       "icon": {
         "item": {
           "id": "minecraft:air",
           "count": 0
         },
         "type": "heracles:item"
-      }
+      },
+      "advancements": [
+        "minecraft:husbandry/breed_an_animal"
+      ],
+      "type": "heracles:advancement"
     }
   },
   "rewards": {
-    "iron_pickaxe": {
-      "title": "Save yourself some time",
+    "steak": {
+      "title": "Yummy!",
       "icon": {
         "item": {
           "id": "minecraft:air",
@@ -29,15 +27,12 @@
         "type": "heracles:item"
       },
       "item": {
-        "id": "minecraft:iron_pickaxe",
-        "count": 1,
-        "nbt": {
-          "Damage": 0
-        }
+        "id": "minecraft:cooked_beef",
+        "count": 8
       },
       "type": "heracles:item"
     },
-    "xp_points": {
+    "25": {
       "icon": {
         "item": {
           "id": "minecraft:air",
@@ -46,8 +41,8 @@
         "type": "heracles:item"
       },
       "xptype": "POINTS",
-      "amount": 25,
-      "title": "25 XP points",
+      "amount": 30,
+      "title": "30 XP points",
       "type": "heracles:xp"
     }
   },
@@ -56,26 +51,26 @@
       "text": ""
     },
     "description": [
-      "Nice job! You survived the first day! You did survive right? Well either way time to get some iron. The game will open up to you greatly after that. Time for the fun stuff >:)"
+      "Wow did they really just do that right in front of us? I'm impressed by the speed but a little traumatized. Anyway great job you got animals to... breed! You are on your way to becoming a real rancher! Swaggy Ranch?!"
     ],
     "groups": {
-      "Milestones": {
+      "Farming": {
         "position": [
-          100,
+          40,
           0
         ]
       }
     },
     "icon": {
       "item": {
-        "id": "minecraft:iron_ingot",
+        "id": "minecraft:leather",
         "count": 1
       },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Freshly Ironed"
+      "translate": "Get A Room!"
     }
   },
   "settings": {
